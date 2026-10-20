@@ -1,0 +1,72 @@
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.10.3
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+### policy: Restricted   64-bit process: True
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.10.3
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+### cl: Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+git version 2.56.0.windows.2
+cmake version 4.3.1-msvc1
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+### step 2
+
+
+    Directory: C:\
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        10/20/2026   3:04 PM                code64                                                               
+
+
+    Directory: C:\code64
+
+
+Mode                 LastWriteTime         Length Name                                                                 
+----                 -------------         ------ ----                                                                 
+d-----        10/20/2026   3:04 PM                my-renderer                                                          
+Initialized empty Git repository in C:/code64/my-renderer/.git/
+### Expand-Archive ok: True
+### files after step 2: obj, .gitignore, CMakeLists.txt, LICENSE.txt, main.cpp, tgaimage.cpp, tgaimage.h
+### tar alternative
+### tar rc=0 files: obj, .gitignore, CMakeLists.txt, main.cpp, tgaimage.cpp, tgaimage.h
+### step 3
+### step 6
+-- Generating done (0.0s)
+-- Build files have been written to: C:/code64/my-renderer/out/build/x64-release
+[2/3] Building CXX object CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
+[3/3] Linking CXX executable tinyrenderer.exe
+### run rc=0  framebuffer.tga: True
+-- Build files have been written to: C:/code64/my-renderer/out/build/x64-debug
+[3/3] Linking CXX executable tinyrenderer.exe
+### step 9
+0.0135346
+0.0074554
+### step 10
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch3.ps1:76
+Line |
+  76 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe':
+     | Name cannot begin with the ' ' character, hexadecimal value 0x20. Line 1, position 12296.
+
+On branch master
+nothing to commit, working tree clean
+### stage 2 / 6: one file from a commit
+### geometry.h first bytes: 35 112 114 97
+### stage 8: line count
+273
+### done
+
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch3.ps1:76
+Line |
+  76 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
