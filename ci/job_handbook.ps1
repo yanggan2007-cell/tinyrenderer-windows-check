@@ -383,6 +383,9 @@ Pop-Location
 $vsx = $VS
 $probe = @"
 `$ErrorActionPreference = 'Continue'
+# start from the machine/user PATH only (the CI job itself has added VS's cmake/ninja to PATH; undo that)
+`$env:PATH = [Environment]::GetEnvironmentVariable('Path','Machine') + ';' + [Environment]::GetEnvironmentVariable('Path','User')
+"before: cmake = " + ((Get-Command cmake -ErrorAction SilentlyContinue).Source)
 Import-Module '$vsx\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'
 Enter-VsDevShell -VsInstallPath '$vsx' -SkipAutomaticLocation -DevCmdArguments '-arch=x64 -host_arch=x64' | Out-Null
 "cmake: " + (Get-Command cmake).Source
