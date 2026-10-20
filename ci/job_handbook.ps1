@@ -369,3 +369,12 @@ $n2 = @()
 $n2 += Diag 'narrowing2-cl' 'cl' @() 'narrowing2.cpp'
 Save-Csv $n2 'handbook-diag4.csv'
 Pop-Location
+# ---------- E11: typical stage-6 compiler / linker errors ----------
+Push-Location $dg
+$e11 = @()
+$e11 += Diag 'override-mismatch-cl' 'cl' @() 'override_mismatch.cpp'
+$e11 += Diag 'tga-ctor4-cl' 'cl' @() 'tga_ctor4.cpp'
+$rc = Invoke-Logged 'cl' @('/nologo', '/EHsc', '/std:c++20', (Join-Path $D 'glob_a.cpp'), (Join-Path $D 'glob_b.cpp'), '/Fe:glob.exe') (Join-Path $logd 'diag-lnk2005-cl.txt')
+$e11 += [pscustomobject]@{ test = 'lnk2005-cl'; compile_rc = $rc; run_exit = ''; run_sec = '' }
+Save-Csv $e11 'handbook-diag5.csv'
+Pop-Location
