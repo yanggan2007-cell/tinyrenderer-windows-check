@@ -36,7 +36,7 @@ function RunHB($exeRel, $argList, $tag, $timeout = 600) {
     if (-not (Test-Path $exe)) { return [pscustomobject]@{ prog = $tag; exit = 'NOT BUILT'; sec = '' } }
     $r = Run-Exe $exe $argList $dir $timeout (Join-Path $logd "run-$tag.txt")
     Convert-Tgas $dir (Join-Path $RES "img\hb-$tag")
-    return [pscustomobject]@{ prog = $tag; exit = $r.exit; sec = $r.sec }
+    return [pscustomobject]@{ prog = $tag; exit = $r.exit; sec = $r.sec; peak_mb = $r.peak_mb }
 }
 $runs = @(
     @('early\s1_gradient', '', 's1_gradient'), @('early\s1_gray', '', 's1_gray'),
@@ -51,7 +51,7 @@ $runs = @(
     @('late\r_texture', $m2, 's7_texture'), @('late\r_tangent', $m2, 's7_tangent'),
     @('late\persp_demo', 'corr.tga', 's7_persp_corr'), @('late\persp_demo_nocorr', 'nocorr.tga', 's7_persp_nocorr'),
     @('late\shadow_2048', $m2, 's7_shadow'), @('late\shadow_bias0', $m2, 's7_shadow_bias0'),
-    @('late\png_ssaa_test', $m1, 's7_ssaa')
+    @('late\png_ssaa_test', $m1, 's7_ssaa'), @('early\checks', '', 'checks')
 )
 foreach ($x in $runs) { $rows += RunHB $x[0] $x[1] $x[2] }
 # PNG files written by png_ssaa_test
@@ -60,9 +60,10 @@ Save-Csv $rows 'handbook-runs.csv'
 
 # ---------- D: timings ----------
 $t = @()
-foreach ($i in 1..3) { foreach ($sz in 1024, 2048, 4096, 8000) { $r = RunHB "late\shadow_$sz" $m2 "timing-shadow-$sz-$i"; $t += [pscustomobject]@{ what = "shadow map $sz"; run = $i; exit = $r.exit; sec = $r.sec } } }
+foreach ($i in 1..3) { foreach ($sz in 1024, 2048, 4096, 8000) { $r = RunHB "late\shadow_$sz" $m2 "timing-shadow-$sz-$i"; $t += [pscustomobject]@{ what = "shadow map $sz"; run = $i; exit = $r.exit; sec = $r.sec; peak_mb = $r.peak_mb } } }
 $r = RunHB 'rt\rt' '' 'rt-brute' 1200; $t += [pscustomobject]@{ what = 'ray tracer brute force'; run = 1; exit = $r.exit; sec = $r.sec }
 foreach ($i in 1..3) { $r = RunHB 'rt\rt' 'bvh' "rt-bvh-$i"; $t += [pscustomobject]@{ what = 'ray tracer BVH'; run = $i; exit = $r.exit; sec = $r.sec } }
+$r = RunHB 'rt\rt' 'bvhnaive' 'rt-bvhnaive' 1200; $t += [pscustomobject]@{ what = 'ray tracer BVH, naive split (triangle bounds)'; run = 1; exit = $r.exit; sec = $r.sec }
 foreach ($i in 1..3) { $r = RunHB 'late\r_tangent' $m2 "timing-tangent-release-$i"; $t += [pscustomobject]@{ what = 'handbook final renderer Release'; run = $i; exit = $r.exit; sec = $r.sec } }
 foreach ($i in 1..2) {
     $exe = Join-Path $HB 'out\build\x64-debug\late\r_tangent.exe'
@@ -223,3 +224,89 @@ foreach ($p in 'x64-debug', 'x64-release') {
 }
 Save-Csv $sr 'handbook-student.csv'
 Pop-Location
+
+# ---------- E5: sanitizers on the author's real code ----------
+$san = @()
+# (a) clang-cl + UBSan float-cast-overflow on the "central projection" commit (the hand-disappears bug of stage 5)
+$u = Join-Path $ROOT 'sanit\a34b13b'
+Extract-Commit 'a34b13b' $u
+Copy-Item -Force "$ROOT\ci\patches\a34b13b\*" $u
+Push-Location $u
+$rc = Invoke-Logged $CLANGCL @('/nologo', '/EHsc', '/std:c++20', '/O1', '-fsanitize=float-cast-overflow', 'main.cpp', 'tgaimage.cpp', 'model.cpp', '/Fe:ubsan.exe') (Join-Path $logd 'sanit-ubsan-a34b13b-build.txt')
+$r = if (Test-Path "$u\ubsan.exe") { Run-Exe "$u\ubsan.exe" $m1 $u 300 (Join-Path $logd 'sanit-ubsan-a34b13b-run.txt') } else { $null }
+$san += [pscustomobject]@{ test = 'clang-cl UBSan float-cast-overflow, a34b13b'; compile_rc = $rc; run_exit = if ($r) { $r.exit } else { '' } }
+Convert-Tgas $u (Join-Path $RES 'img\sanit-ubsan-a34b13b')
+Pop-Location
+# (b) MSVC AddressSanitizer on the author's final code, exactly the command line printed in the handbook
+$a = Join-Path $ROOT 'sanit\master'
+Extract-Commit 'master' $a
+Push-Location $a
+$rc = Invoke-Logged 'cl' @('/nologo', '/EHsc', '/std:c++20', '/utf-8', '/D_USE_MATH_DEFINES', '/Zi', '/fsanitize=address', '*.cpp', '/Fe:asan.exe') (Join-Path $logd 'sanit-asan-master-build.txt')
+$r = if (Test-Path "$a\asan.exe") { Run-Exe "$a\asan.exe" $m2 $a 600 (Join-Path $logd 'sanit-asan-master-run.txt') } else { $null }
+$san += [pscustomobject]@{ test = 'cl /fsanitize=address, master (no bug expected)'; compile_rc = $rc; run_exit = if ($r) { $r.exit } else { '' } }
+Pop-Location
+Save-Csv $san 'handbook-sanitizers.csv'
+
+# ---------- E6: can Windows' own imaging stack (WIC, used by Photos / Explorer thumbnails) decode TGA? ----------
+$wic = Join-Path $logd 'wic-tga.txt'
+Add-Type -AssemblyName PresentationCore
+foreach ($f in @((Join-Path $ROOT 'hbrun\s1_gradient\gradient.tga'), (Join-Path $RES 'img\hb-s1_gradient\gradient.png'))) {
+    try {
+        $dec = [Windows.Media.Imaging.BitmapDecoder]::Create([Uri]$f, [Windows.Media.Imaging.BitmapCreateOptions]::None, [Windows.Media.Imaging.BitmapCacheOption]::OnLoad)
+        "$([IO.Path]::GetFileName($f)): decoded by WIC, codec = $($dec.CodecInfo.FriendlyName), $($dec.Frames[0].PixelWidth)x$($dec.Frames[0].PixelHeight)" | Out-File -Append -Encoding utf8 $wic
+    } catch {
+        "$([IO.Path]::GetFileName($f)): WIC error: $($_.Exception.Message)" | Out-File -Append -Encoding utf8 $wic
+    }
+}
+"installed WIC decoders:" | Out-File -Append -Encoding utf8 $wic
+Get-ChildItem 'Registry::HKEY_CLASSES_ROOT\CLSID\{7ED96837-96F0-4812-B211-F13C24117ED3}\Instance' -ErrorAction SilentlyContinue | ForEach-Object {
+    $clsid = $_.PSChildName
+    $k = Get-ItemProperty "Registry::HKEY_CLASSES_ROOT\CLSID\$clsid" -ErrorAction SilentlyContinue
+    "  $($k.FriendlyName): $($k.FileExtensions)" } | Out-File -Append -Encoding utf8 $wic
+
+# ---------- E7: Git on a fresh machine, in Windows PowerShell 5.1 (identity, line endings, .gitignore, one-file checkout) ----------
+$g = Join-Path $ROOT 'gittest'
+New-Item -ItemType Directory -Force $g | Out-Null
+$gscript = @"
+`$ErrorActionPreference = 'Continue'
+`$env:GIT_CONFIG_GLOBAL = '$g\fresh-global.gitconfig'   # empty global config = a machine where git was just installed
+New-Item -ItemType File -Force `$env:GIT_CONFIG_GLOBAL | Out-Null
+"git version: " + (git --version)
+"system core.autocrlf: " + (git config --system core.autocrlf)
+cd '$g'
+git clone -q '$REF' tinyrenderer-ref
+mkdir my-renderer | Out-Null
+cd my-renderer
+git init -q
+cd ..\tinyrenderer-ref
+git archive --format=zip -o ..\starter.zip 706b2df
+cd ..\my-renderer
+Expand-Archive ..\starter.zip -DestinationPath .
+Copy-Item ..\tinyrenderer-ref\LICENSE.txt .
+"--- git add ."
+git add . 2>&1 | Select-Object -First 3
+"--- git commit without user.name / user.email"
+git commit -q -m "Stage 0: starting point from tinyrenderer 706b2df" 2>&1
+"exit: `$LASTEXITCODE"
+"--- after git config --global user.name / user.email"
+git config --global user.name "Zhang San"
+git config --global user.email "zhangsan@example.com"
+git commit -q -m "Stage 0: starting point from tinyrenderer 706b2df" 2>&1
+"exit: `$LASTEXITCODE"
+git log --oneline
+"--- .gitignore for Visual Studio + output images"
+Set-Content -Path .gitignore -Value ".vs/", "out/", "/*.tga" -Encoding ascii
+New-Item -ItemType Directory -Force .vs, out\build\x64-release | Out-Null
+Set-Content .vs\dummy.txt 'x'
+Set-Content out\build\x64-release\dummy.txt 'x'
+Set-Content framebuffer.tga 'x'
+git status --porcelain
+"--- one file from another commit: cmd /c redirect keeps the bytes"
+cmd /c "git -C ..\tinyrenderer-ref show 6aa8824:geometry.h > geometry.h"
+"geometry.h first bytes: " + ([BitConverter]::ToString([IO.File]::ReadAllBytes("`$PWD\geometry.h")[0..5]))
+"same as in the repository: " + ((git -C ..\tinyrenderer-ref rev-parse 6aa8824:geometry.h) -eq (git hash-object geometry.h))
+"--- counting lines of code"
+(Get-Content *.cpp, *.h | Measure-Object -Line).Lines
+"@
+$gscript | Out-File -Encoding utf8 "$g\test.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$g\test.ps1" *>&1 | Out-File -Encoding utf8 (Join-Path $logd 'powershell51-git.txt')

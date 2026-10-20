@@ -45,6 +45,7 @@ bool hit_box(const Ray &r, const vec3 &invd, const AABB &b, double tmax) {
     return true;
 }
 
+bool naive_split = false;                        // [hide]
 struct Node { AABB box; int left = -1, first = 0, count = 0; };   // count > 0 表示叶子
 
 struct BVH {
@@ -70,6 +71,7 @@ struct BVH {
         // （否则地板这种巨大三角形会让盒子缩不小，划分失败，见 A.5）
         AABB cb;
         for (int k = 0; k < node.count; k++) cb.grow(centroid(idx[node.first + k]));
+        if (naive_split) cb = node.box;          // [hide]
         vec3 ext = cb.hi - cb.lo;                // 沿最长的轴，从中点一分为二
         int axis = ext.x > ext.y ? (ext.x > ext.z ? 0 : 2) : (ext.y > ext.z ? 1 : 2);
         double mid = cb.lo[axis] + ext[axis] / 2;
@@ -105,6 +107,7 @@ struct BVH {
 
 int main(int argc, char **argv) {
     bool use_bvh = argc > 1 && !strcmp(argv[1], "bvh");
+    if (argc > 1 && !strcmp(argv[1], "bvhnaive")) use_bvh = naive_split = true;  // [hide]
     std::vector<Tri> tris;
     for (const char *f : {"obj/diablo3_pose/diablo3_pose.obj", "obj/floor.obj"}) {
         Model m(f);

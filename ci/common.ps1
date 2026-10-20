@@ -86,12 +86,20 @@ function Run-Exe($exe, [string]$argList, $cwd, $timeoutSec, $log) {
     $sw = [Diagnostics.Stopwatch]::StartNew()
     $p = [Diagnostics.Process]::Start($psi)
     $o = $p.StandardOutput.ReadToEndAsync(); $e = $p.StandardError.ReadToEndAsync()
-    $done = $p.WaitForExit([int]($timeoutSec * 1000))
+    # poll every 20 ms so that the peak working set (memory) can be recorded as well
+    $peak = 0; $done = $false
+    while ($true) {
+        if ($p.WaitForExit(20)) { $done = $true; break }
+        try { $p.Refresh(); $peak = [math]::Max($peak, $p.PeakWorkingSet64) } catch {}
+        if ($sw.Elapsed.TotalSeconds -gt $timeoutSec) { break }
+    }
     if (-not $done) { try { $p.Kill($true) } catch {} ; $p.WaitForExit() }
+    $p.WaitForExit()
     $sw.Stop()
     $code = if ($done) { $p.ExitCode } else { 'TIMEOUT' }
-    ("exit: $code`nseconds: " + $sw.Elapsed.TotalSeconds + "`n--- stdout ---`n" + $o.Result + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
-    return [pscustomobject]@{ exit = $code; sec = [math]::Round($sw.Elapsed.TotalSeconds, 3) }
+    $peakMB = [math]::Round($peak / 1MB, 1)
+    ("exit: $code`nseconds: " + $sw.Elapsed.TotalSeconds + "`npeak_working_set_MiB: $peakMB`n--- stdout ---`n" + $o.Result + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+    return [pscustomobject]@{ exit = $code; sec = [math]::Round($sw.Elapsed.TotalSeconds, 3); peak_mb = $peakMB }
 }
 
 function Convert-Tgas($dir, $outdir) {

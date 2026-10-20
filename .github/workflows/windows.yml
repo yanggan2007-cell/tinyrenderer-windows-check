@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [flow, handbook]
+        part: [handbook, authors-clang-noomp]
     steps:
       - uses: actions/checkout@v4
       - name: Python packages
