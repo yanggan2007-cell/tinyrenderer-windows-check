@@ -1,0 +1,1621 @@
+exit: 0
+seconds: 382.5817878
+peak_working_set_MiB: 994.8
+--- stdout ---
+v -1.0527 0.53411 -0.925497 
+v -0.704729 1.28294 0.327743 
+v 0.721032 0.96503 0.893773 
+v 1.11366 0.836245 -0.557194 
+v -0.871972 1.19767 0.235063 
+v -0.477341 1.41324 -0.157775 
+v 1.36938 0.296778 -0.535462 
+v 0.823083 0.574997 1.11441 
+v -1.29325 0.74725 -0.138306 
+v 0.261275 0.606038 -1.34702 
+v -1.01293 0.0314214 1.10588 
+v 1.09765 0.831058 0.595402 
+v -0.0236179 1.07941 -1.0413 
+v -1.2664 0.44027 -0.672608 
+v -1.18781 0.833089 0.38087 
+v 0.888826 0.836612 -0.871819 
+v 0.671042 0.0649811 1.33996 
+v -0.723178 0.0776492 1.31186 
+v 1.17421 0.924009 -0.132018 
+v 0.36588 1.44192 0.192364 
+v 0.412289 1.38229 -0.411437 
+v 0.110859 1.38593 0.56295 
+v 0.67286 0.311047 1.30404 
+v 0.73828 1.2169 -0.473396 
+v 0.700047 1.14602 -0.668254 
+v -0.720823 1.1875 -0.565907 
+v 0.440354 1.21185 -0.766492 
+v 0.484068 1.19025 0.773938 
+v -0.502985 1.33838 -0.453589 
+v 0.367922 1.23589 -0.766288 
+v 0.668033 0.34572 1.29777 
+v 0.403313 0.00247276 1.44476 
+v 1.38223 0.0207046 -0.582244 
+v 0.895502 1.11345 0.456401 
+v 0.858898 1.20968 -0.221305 
+v 0.00905751 0.454624 1.42942 
+v 0.419055 1.19511 -0.80381 
+v 1.15914 0.177253 -0.935401 
+v 0.0899404 0.271282 -1.47252 
+v 0.535415 0.965705 1.01526 
+v -1.44447 0.396512 -0.0793673 
+v -0.0523746 0.583463 1.38088 
+v 1.48786 0.136351 -0.132921 
+v -0.365243 0.082716 1.4525 
+v 0.0133298 1.40164 0.534054 
+v -0.0313989 1.48361 0.218902 
+v 0.43961 0.440987 1.36465 
+v -1.4349 0.00467093 -0.437073 
+v 1.40667 0.0444479 0.518936 
+v 1.45675 0.0727707 -0.350139 
+v -0.916589 0.977878 -0.673512 
+v -0.503926 1.31421 0.518573 
+v -0.632286 0.679917 -1.1781 
+v 0.756998 0.098492 1.29122 
+v 0.929938 0.991445 -0.634233 
+v -0.518818 1.40586 0.0663164 
+v -1.25022 0.0417152 0.82777 
+v -0.848765 0.669205 -1.04008 
+v -0.64972 1.04546 0.857249 
+v 1.40577 0.378292 -0.361527 
+v -0.849239 1.06001 0.63653 
+v 0.730134 0.0757451 -1.30812 
+v -0.0929305 0.423707 -1.43591 
+v -0.969913 0.899155 -0.707665 
+v 1.24791 0.686082 -0.471186 
+v -1.3794 0.587743 -0.0427094 
+v -1.47375 0.163867 -0.226302 
+v 0.439321 1.4079 0.273524 
+v -0.725733 0.950408 0.905558 
+v -1.29481 0.656441 0.377569 
+v -0.0888997 1.18872 0.910512 
+v -0.970298 1.06708 -0.412146 
+v -0.24806 1.38254 0.526343 
+v 0.678689 0.715149 -1.13046 
+v 0.578109 0.630903 -1.23197 
+v 0.358024 0.583124 1.33484 
+v 1.39975 0.110034 -0.52781 
+v -0.742724 0.656711 -1.12565 
+v -0.641506 1.33117 0.257797 
+v -1.48459 0.213265 0.0224129 
+v -1.32494 0.526717 -0.465937 
+v -0.273555 1.30977 0.677983 
+v -1.0025 0.977351 0.538312 
+v -1.13005 0.893866 -0.417127 
+v -1.30653 0.244864 -0.695 
+v -0.941041 0.474456 1.0674 
+v -0.720116 0.781873 -1.05835 
+v 0.14848 0.599879 1.36678 
+v -1.46906 0.261392 0.153387 
+v 0.502796 0.540698 -1.3057 
+v -1.1394 0.734615 0.641949 
+v -0.900223 0.86304 -0.833523 
+v 1.32759 0.677773 -0.167756 
+v -1.49202 0.110991 0.107462 
+v 0.502981 1.20167 0.743632 
+v 0.336559 0.969482 1.094 
+v 1.07798 0.568565 -0.874465 
+v 0.596487 0.51605 -1.27589 
+v 0.396628 0.75166 -1.236 
+v -0.519368 1.28137 -0.581672 
+
+--- stderr ---
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+0
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+1
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+2
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+3
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+4
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+5
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+6
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+7
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+8
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+9
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+10
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+11
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+12
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+13
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+14
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+15
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+16
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+17
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+18
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+19
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+20
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+21
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+22
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+23
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+24
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+25
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+26
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+27
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+28
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+29
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+30
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+31
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+32
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+33
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+34
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+35
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+36
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+37
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+38
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+39
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+40
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+41
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+42
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+43
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+44
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+45
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+46
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+47
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+48
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+49
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+50
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+51
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+52
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+53
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+54
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+55
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+56
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+57
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+58
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+59
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+60
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+61
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+62
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+63
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+64
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+65
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+66
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+67
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+68
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+69
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+70
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+71
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+72
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+73
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+74
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+75
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+76
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+77
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+78
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+79
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+80
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+81
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+82
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+83
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+84
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+85
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+86
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+87
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+88
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+89
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+90
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+91
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+92
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+93
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+94
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+95
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+96
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+97
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+98
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+99
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+
