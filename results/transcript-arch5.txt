@@ -1,0 +1,517 @@
+**********************
+PowerShell transcript start
+Start time: 20261020153753
+Username: runnervm0xl3a\runneradmin
+RunAs User: runnervm0xl3a\runneradmin
+Configuration Name: 
+Machine: runnervm0xl3a (Microsoft Windows NT 10.0.26100.0)
+Host Application: C:\Program Files\PowerShell\7\pwsh.dll -command . 'D:\a\_temp\f0090b92-a58f-4bb4-92e3-16d9f043ff60.ps1'
+Process ID: 3212
+PSVersion: 7.6.6
+PSEdition: Core
+GitCommitId: 7.6.6
+OS: Microsoft Windows 10.0.26100
+Platform: Win32NT
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.4
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch5.ps1:22
+Line |
+  22 |      & $exe -NoProfile -ExecutionPolicy Restricted -EncodedCommand $en …
+     |      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe': Data at the root level is invalid. Line 1, position 1.
+lld-link: warning: clang_rt.ubsan_standalone-x86_64.lib(sanitizer_symbolizer_win.cpp.obj): locally defined symbol
+imported: wcslen (defined in libucrt.lib(strnlen.obj)) [LNK4217]
+lld-link: warning: clang_rt.ubsan_standalone-x86_64.lib(sanitizer_symbolizer_win.cpp.obj): locally defined symbol
+imported: wcscat_s (defined in libucrt.lib(wcscat_s.obj)) [LNK4217]
+**********************
+PowerShell transcript end
+End time: 20261020153933
+**********************

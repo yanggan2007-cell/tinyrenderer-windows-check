@@ -1,0 +1,27 @@
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.10.3
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.10.3
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+-- Build files have been written to: C:/code/master/out/build/x64-release
+[5/5] Linking CXX executable tinyrenderer.exe
+-- Build files have been written to: C:/code/master/out/build/x64-debug
+[5/5] Linking CXX executable tinyrenderer.exe
+debug   run 1 : 3.6068047
+release run 1 : 0.4530118
+debug   run 2 : 3.3643104
+release run 2 : 0.4423106
+debug   run 3 : 3.3210188
+release run 3 : 0.4291037
+--- ASan with the file list in a variable
+main.cpp
+our_gl.cpp
+model.cpp
+tgaimage.cpp
+Generating Code...
+cl rc=0
+asan run rc=0
+files left in the root: asan.exe, asan.pdb, main.obj, model.obj, our_gl.obj, tgaimage.obj, vc140.pdb
