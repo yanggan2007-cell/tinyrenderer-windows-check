@@ -1,0 +1,7 @@
+exit: 0
+seconds: 0.0602004
+--- stdout ---
+
+--- stderr ---
+1024x1024/24
+

@@ -1,0 +1,7 @@
+exit: 0
+seconds: 0.0085452
+--- stdout ---
+3.141593
+
+--- stderr ---
+

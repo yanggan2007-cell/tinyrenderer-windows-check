@@ -1,0 +1,7 @@
+exit: 0
+seconds: 0.0323451
+--- stdout ---
+
+--- stderr ---
+vertices: 2519, triangles: 5022
+

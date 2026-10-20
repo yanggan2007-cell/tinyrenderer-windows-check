@@ -1,0 +1,7 @@
+exit: 0
+seconds: 0.0093378
+--- stdout ---
+顶点数 读取失败了
+
+--- stderr ---
+

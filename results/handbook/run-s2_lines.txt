@@ -1,0 +1,7 @@
+exit: 0
+seconds: 1.3072771
+--- stdout ---
+float-vs-int mismatched pixels: 5916
+
+--- stderr ---
+

@@ -1,0 +1,31 @@
+PowerShell 5.1.26100.33438
+--- A: git archive | tar -x (binary pipe)
+tar : tar.exe: Error opening archive: Unrecognized archive format
+At D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\pstest\test.ps1:5 char:91
++ ... heck\tinyrenderer-windows-check\ref' archive 706b2df | tar -xf - 2>&1
++                                                            ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (tar.exe: Error ... archive format:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+exit: 1
+0 files
+--- B: git archive --format=zip + Expand-Archive
+exit: 0
+Expand-Archive : The path '..\starter.zip' either does not exist or is not a valid file system path.
+At D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\pstest\test.ps1:12 char:1
++ Expand-Archive ..\starter.zip -DestinationPath .
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (..\starter.zip:String) [Expand-Archive], InvalidOperationException
+    + FullyQualifiedErrorId : ArchiveCmdletPathNotFound,Expand-Archive
+ 
+0 files
+--- C: tar -xf on the zip
+tar : tar.exe: Error opening archive: Failed to open '..\starter.zip'
+At D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\pstest\test.ps1:16 char:1
++ tar -xf ..\starter.zip 2>&1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (tar.exe: Error .....\starter.zip':String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+exit: 1
+0 files

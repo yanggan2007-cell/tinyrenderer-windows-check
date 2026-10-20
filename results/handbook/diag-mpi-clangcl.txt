@@ -1,0 +1,4 @@
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\mpi_test.cpp(4,34): error: use of undeclared identifier 'M_PI'
+    4 | int main() { std::printf("%f\n", M_PI); }
+      |                                  ^~~~
+1 error generated.

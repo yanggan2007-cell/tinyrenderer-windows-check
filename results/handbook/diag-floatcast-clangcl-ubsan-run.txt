@@ -1,0 +1,13 @@
+exit: 0
+seconds: 0.0150199
+--- stdout ---
+255.0 -> 255
+257.0 -> 1
+280.0 -> 24
+300.5 -> 44
+-1.0 -> 255
+
+--- stderr ---
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\float_cast.cpp:8:54: runtime error: 257 is outside the range of representable values of type 'unsigned char'
+SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\float_cast.cpp:8:54 
+
