@@ -1,0 +1,14 @@
+{
+  "version": "0.2.1",
+  "defaults": {},
+  "configurations": [
+    {
+      "type": "default",
+      "project": "CMakeLists.txt",
+      "projectTarget": "tinyrenderer.exe",
+      "name": "tinyrenderer.exe",
+      "currentDir": "${workspaceRoot}",
+      "args": [ "obj/diablo3_pose/diablo3_pose.obj", "obj/floor.obj" ]
+    }
+  ]
+}

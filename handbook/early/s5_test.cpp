@@ -1,0 +1,12 @@
+#include <algorithm>
+#include <cmath>
+#include <cstdlib>
+#include <limits>
+#include <numbers>
+#include <vector>
+#include "tgaimage.h"
+#include "mymodel.h"
+#include "s5_rot.inc"
+#include "s5_gl.inc"
+#include "s5_rasterize.inc"
+#include "s5_main.inc"

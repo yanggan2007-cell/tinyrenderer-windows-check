@@ -1,0 +1,44 @@
+706b2df | 
+dd938ce | 
+1971e01 | 
+d7662fb | 
+3998cbe | 
+2054b8c | 
+5c3a810 | 
+dbd11a9 | 
+477b3cd | 
+5c8360e | 
+6aa8824 | obj/diablo3_pose/diablo3_pose.obj
+1e1d339 | obj/diablo3_pose/diablo3_pose.obj
+9e2dcd6 | 
+582f04c | 
+400b295 | 
+9cb66c7 | 
+ad5bb95 | 
+e2d55c3 | 
+fc3eae6 | 
+e25bb49 | obj/diablo3_pose/diablo3_pose.obj
+ab559b1 | obj/diablo3_pose/diablo3_pose.obj
+52c7f88 | obj/diablo3_pose/diablo3_pose.obj
+af1c138 | obj/diablo3_pose/diablo3_pose.obj
+f1dd24e | obj/diablo3_pose/diablo3_pose.obj
+a61a783 | obj/diablo3_pose/diablo3_pose.obj
+5776019 | obj/diablo3_pose/diablo3_pose.obj
+a34b13b | obj/diablo3_pose/diablo3_pose.obj
+c3ccbe7 | obj/diablo3_pose/diablo3_pose.obj
+dd62c22 | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+592ab4d | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+637223c | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+df0c820 | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+c45d23f | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+27f4fd8 | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+e42447a | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+f68629a | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+c2f439d | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+32a4faa | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+d59a98c | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+219cda6 | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+6f5a3a5 | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+974424b | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+d96d729 | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+0b2359c | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
