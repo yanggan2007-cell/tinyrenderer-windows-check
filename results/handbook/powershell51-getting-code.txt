@@ -1,0 +1,27 @@
+PowerShell 5.1.26100.33438
+--- A: pipe git archive into tar (works on Linux/macOS shells, NOT in Windows PowerShell 5.1)
+tar : tar.exe: Error opening archive: Unrecognized archive format
+At D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\pstest\test.ps1:7 char:91
++ ... heck\tinyrenderer-windows-check\ref' archive 706b2df | tar -xf - 2>&1
++                                                            ~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (tar.exe: Error ... archive format:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+exit: 1
+0 files
+--- B: the handbook's commands
+git archive exit: 0
+obj
+.gitignore
+CMakeLists.txt
+LICENSE.txt
+main.cpp
+tgaimage.cpp
+tgaimage.h
+49 files
+--- C: tar can also unpack the zip
+exit: 0
+48 files
+--- D: git show of one file from another commit
+geometry.h first bytes: FF-FE-23-00-70-00
+geometry2.h first bytes: 23-70-72-61-67-6D

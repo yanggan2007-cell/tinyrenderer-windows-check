@@ -1,0 +1,7 @@
+override_mismatch.cpp
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\override_mismatch.cpp(5): error C3668: 'FlatShader::fragment': method with override specifier 'override' did not override any base class methods
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\override_mismatch.cpp(7): error C2259: 'FlatShader': cannot instantiate abstract class
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\override_mismatch.cpp(4): note: see declaration of 'FlatShader'
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\override_mismatch.cpp(7): note: due to following members:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\override_mismatch.cpp(7): note: 'std::pair<bool,int> IShader::fragment(double) const': is abstract
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\override_mismatch.cpp(3): note: see declaration of 'IShader::fragment'

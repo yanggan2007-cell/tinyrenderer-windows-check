@@ -1,0 +1,5 @@
+before: cmake = C:\Program Files\CMake\bin\cmake.exe
+cmake: C:\Program Files\CMake\bin\cmake.exe
+ninja: C:\ProgramData\Chocolatey\bin\ninja.exe
+cl:    C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\cl.exe
+git:   C:\Program Files\Git\bin\git.exe

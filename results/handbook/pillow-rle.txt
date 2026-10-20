@@ -1,0 +1,4 @@
+Pillow 13.0.0
+rle.tga OK (256, 256) RGB
+raw.tga OK (256, 256) RGB
+sizes: rle.tga=197164 raw.tga=196652

@@ -1,0 +1,5 @@
+glob_a.cpp
+glob_b.cpp
+Generating Code...
+glob_b.obj : error LNK2005: "double ModelView" (?ModelView@@3NA) already defined in glob_a.obj
+glob.exe : fatal error LNK1169: one or more multiply defined symbols found
