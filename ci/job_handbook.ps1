@@ -350,3 +350,15 @@ $r = Run-Exe (Join-Path $st 'out\build\x64-release\gradient.exe') '' $st 60 (Joi
 $mc = Measure-Command { .\out\build\x64-release\tinyrenderer.exe }
 "Measure-Command TotalSeconds: $($mc.TotalSeconds)" | Out-File -Append -Encoding utf8 $log
 Pop-Location
+
+# ---------- E9: Debug runs of the tests (assert is active only in Debug) and a failing assert ----------
+$dbgRows = @()
+foreach ($x in @(@('early\s4_test_math', 's4_math-debug'), @('early\checks', 'checks-debug'))) {
+    $exe = Join-Path $HB "out\build\x64-debug\$($x[0]).exe"
+    if (Test-Path $exe) { $r = Run-Exe $exe '' $HB 120 (Join-Path $logd "run-$($x[1]).txt"); $dbgRows += [pscustomobject]@{ prog = $x[1]; exit = $r.exit; sec = $r.sec } }
+}
+Push-Location $dg
+$dbgRows += Diag 'assert-cl-debug' 'cl' @('/Od', '/MDd', '/Zi') 'assert_fail.cpp' '' 20
+$dbgRows += Diag 'assert-cl-release' 'cl' @('/O2', '/MD', '/DNDEBUG') 'assert_fail.cpp' '' 20
+Pop-Location
+Save-Csv $dbgRows 'handbook-debugruns.csv'
