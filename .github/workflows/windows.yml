@@ -1,0 +1,30 @@
+name: windows-check
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  win:
+    runs-on: windows-latest
+    timeout-minutes: 170
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run checks
+        shell: pwsh
+        run: ./ci/run.ps1
+        continue-on-error: true
+      - name: Publish results to a branch
+        if: always()
+        shell: pwsh
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          $branch = "results-${{ github.run_number }}"
+          New-Item -ItemType Directory -Force results | Out-Null
+          git checkout --orphan $branch
+          git rm -r -q --cached .
+          git add -f results
+          git commit -q -m "results of run ${{ github.run_number }} for ${{ github.sha }}"
+          git push -q origin $branch
