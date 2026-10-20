@@ -1,0 +1,7 @@
+exit: 0
+seconds: 0.0126226
+--- stdout ---
+
+--- stderr ---
+
+tga files in build folder: framebuffer.tga

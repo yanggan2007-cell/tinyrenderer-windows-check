@@ -1,0 +1,12 @@
+-- Building for: Visual Studio 18 2026
+-- The CXX compiler identification is MSVC 19.51.36260.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -openmp (found version "2.0")
+-- Found OpenMP: TRUE (found version "2.0") found components: CXX
+-- Configuring done (34.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/flow/readme/build

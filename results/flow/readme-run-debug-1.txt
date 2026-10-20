@@ -1,0 +1,20 @@
+exit: 0
+seconds: 5.8031324
+--- stdout ---
+
+--- stderr ---
+# v# 2519 f# 5022
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_diffuse.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_nm_tangent.tga loading ok
+1024x1024/24
+texture file obj/diablo3_pose/diablo3_pose_spec.tga loading ok
+# v# 4 f# 2
+600x600/32
+texture file obj/floor_diffuse.tga loading ok
+512x512/24
+texture file obj/floor_nm_tangent.tga loading ok
+1x1/24
+texture file obj/floor_spec.tga loading ok
+
