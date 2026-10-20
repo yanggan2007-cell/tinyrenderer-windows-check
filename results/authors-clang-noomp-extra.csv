@@ -1,0 +1,2 @@
+"stage","commit","name","compiler","build_ok","errors","warnings","build_sec","patched","patched_ok","patched_errors","run_exit","run_sec"
+"s7","dfb973c","shadowmap-first","clang-noomp-extra","False","5","321","10","True","True","0","",""

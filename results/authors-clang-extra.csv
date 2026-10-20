@@ -1,0 +1,2 @@
+"stage","commit","name","compiler","build_ok","errors","warnings","build_sec","patched","patched_ok","patched_errors","run_exit","run_sec"
+"s7","dfb973c","shadowmap-first","clang-extra","False","9","305","5.3","True","False","4","",""

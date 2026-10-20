@@ -1,0 +1,2 @@
+"stage","commit","name","compiler","build_ok","errors","warnings","build_sec","patched","patched_ok","patched_errors","run_exit","run_sec"
+"s7","dfb973c","shadowmap-first","msvc-extra","False","5","0","17.5","True","True","0","0","7.328"
