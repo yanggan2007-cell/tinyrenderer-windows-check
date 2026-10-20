@@ -1,0 +1,78 @@
+-- The CXX compiler identification is MSVC 19.51.36260.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/encbuild/utf8
+[1/69] Building CXX object early\CMakeFiles\s1_gradient.dir\s1_gradient.cpp.obj
+[2/69] Building CXX object late\CMakeFiles\late_core.dir\tgaimage.cpp.obj
+[3/69] Building CXX object early\CMakeFiles\tga_early.dir\tgaimage.cpp.obj
+[4/69] Building CXX object late\CMakeFiles\late_core.dir\our_gl.cpp.obj
+[5/69] Building CXX object early\CMakeFiles\mymodel.dir\mymodel.cpp.obj
+[6/69] Building CXX object late\CMakeFiles\late_core.dir\model2.cpp.obj
+[7/69] Linking CXX static library early\tga_early.lib
+[8/69] Linking CXX static library early\mymodel.lib
+[9/69] Building CXX object early\CMakeFiles\s1_gray.dir\s1_gray.cpp.obj
+[10/69] Building CXX object early\CMakeFiles\s3_fat_test.dir\s3_fat_test.cpp.obj
+[11/69] Building CXX object early\CMakeFiles\s2_lines_test.dir\s2_lines_test.cpp.obj
+[12/69] Building CXX object early\CMakeFiles\s4_myvec.dir\s4_myvec.cpp.obj
+[13/69] Building CXX object early\CMakeFiles\s3_color_test.dir\s3_color_test.cpp.obj
+[14/69] Building CXX object early\CMakeFiles\s4_test_math.dir\s4_test_math.cpp.obj
+[15/69] Building CXX object early\CMakeFiles\s5_dropz_test.dir\s5_dropz_test.cpp.obj
+[16/69] Building CXX object early\CMakeFiles\s2_wire.dir\s2_wire.cpp.obj
+[17/69] Building CXX object early\CMakeFiles\rot_test.dir\rot_test.cpp.obj
+[18/69] Building CXX object early\CMakeFiles\s3_test_cull.dir\s3_test_cull.cpp.obj
+[19/69] Building CXX object early\CMakeFiles\s3_test.dir\s3_test.cpp.obj
+[20/69] Linking CXX static library late\late_core.lib
+[21/69] Building CXX object early\CMakeFiles\s4_test.dir\s4_test.cpp.obj
+[22/69] Building CXX object early\CMakeFiles\s4_painter_test.dir\s4_painter_test.cpp.obj
+[23/69] Building CXX object early\CMakeFiles\s5_test.dir\s5_test.cpp.obj
+[24/69] Building CXX object late\CMakeFiles\r_flat.dir\main_tmpl.cpp.obj
+[25/69] Building CXX object late\CMakeFiles\r_smooth.dir\main_tmpl.cpp.obj
+[26/69] Building CXX object late\CMakeFiles\r_texture.dir\main_tmpl.cpp.obj
+[27/69] Building CXX object late\CMakeFiles\rnd_test.dir\rnd_test.cpp.obj
+[28/69] Building CXX object late\CMakeFiles\r_tangent.dir\main_tmpl.cpp.obj
+[29/69] Building CXX object late\CMakeFiles\png_ssaa_test.dir\png_ssaa_test.cpp.obj
+[30/69] Building CXX object late\CMakeFiles\persp_demo.dir\persp_demo.cpp.obj
+[31/69] Building CXX object late\CMakeFiles\persp_demo_nocorr.dir\persp_demo.cpp.obj
+[32/69] Building CXX object late\CMakeFiles\persp_demo_nocorr.dir\our_gl_nocorr.cpp.obj
+[33/69] Building CXX object late\CMakeFiles\persp_demo_nocorr.dir\tgaimage.cpp.obj
+[34/69] Building CXX object late\CMakeFiles\persp_demo_nocorr.dir\model2.cpp.obj
+[35/69] Building CXX object late\CMakeFiles\shadow_1024.dir\shadow_1024.cpp.obj
+[36/69] Building CXX object late\CMakeFiles\shadow_2048.dir\shadow_2048.cpp.obj
+[37/69] Building CXX object late\CMakeFiles\shadow_4096.dir\shadow_4096.cpp.obj
+[38/69] Building CXX object late\CMakeFiles\shadow_8000.dir\shadow_8000.cpp.obj
+[39/69] Linking CXX executable early\s1_gradient.exe
+[40/69] Linking CXX executable early\s1_gray.exe
+[41/69] Linking CXX executable early\s2_lines_test.exe
+[42/69] Linking CXX executable early\s3_color_test.exe
+[43/69] Linking CXX executable early\s3_fat_test.exe
+[44/69] Linking CXX executable early\s4_test_math.exe
+[45/69] Linking CXX executable early\s4_myvec.exe
+[46/69] Building CXX object late\CMakeFiles\shadow_bias0.dir\shadow_bias0.cpp.obj
+[47/69] Linking CXX executable early\s5_dropz_test.exe
+[48/69] Linking CXX executable early\rot_test.exe
+[49/69] Linking CXX executable early\s2_wire.exe
+[50/69] Linking CXX executable early\s3_test.exe
+[51/69] Linking CXX executable early\s3_test_cull.exe
+[52/69] Linking CXX executable early\s4_test.exe
+[53/69] Linking CXX executable early\s5_test.exe
+[54/69] Linking CXX executable early\s4_painter_test.exe
+[55/69] Linking CXX executable late\r_flat.exe
+[56/69] Linking CXX executable late\r_smooth.exe
+[57/69] Linking CXX executable late\r_texture.exe
+[58/69] Linking CXX executable late\r_tangent.exe
+[59/69] Linking CXX executable late\rnd_test.exe
+[60/69] Linking CXX executable late\persp_demo.exe
+[61/69] Linking CXX executable late\png_ssaa_test.exe
+[62/69] Linking CXX executable late\persp_demo_nocorr.exe
+[63/69] Linking CXX executable late\shadow_1024.exe
+[64/69] Linking CXX executable late\shadow_2048.exe
+[65/69] Linking CXX executable late\shadow_4096.exe
+[66/69] Linking CXX executable late\shadow_8000.exe
+[67/69] Linking CXX executable late\shadow_bias0.exe
+[68/69] Building CXX object rt\CMakeFiles\rt.dir\rt.cpp.obj
+[69/69] Linking CXX executable rt\rt.exe

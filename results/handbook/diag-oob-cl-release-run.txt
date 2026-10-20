@@ -1,0 +1,7 @@
+exit: 0
+seconds: 0.0084264
+--- stdout ---
+v[3] = 6553701
+
+--- stderr ---
+

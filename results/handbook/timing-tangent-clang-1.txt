@@ -1,0 +1,20 @@
+exit: 0
+seconds: 0.1519408
+--- stdout ---
+
+--- stderr ---
+obj/diablo3_pose/diablo3_pose.obj: 2519 vertices, 5022 triangles
+  texture obj/diablo3_pose/diablo3_pose_diffuse.tga1024x1024/24
+ ok
+  texture obj/diablo3_pose/diablo3_pose_nm_tangent.tga1024x1024/24
+ ok
+  texture obj/diablo3_pose/diablo3_pose_spec.tga1024x1024/24
+ ok
+obj/floor.obj: 4 vertices, 2 triangles
+  texture obj/floor_diffuse.tga600x600/32
+ ok
+  texture obj/floor_nm_tangent.tga512x512/24
+ ok
+  texture obj/floor_spec.tga1x1/24
+ ok
+
