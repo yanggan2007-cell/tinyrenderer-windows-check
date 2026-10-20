@@ -378,3 +378,34 @@ $rc = Invoke-Logged 'cl' @('/nologo', '/EHsc', '/std:c++20', (Join-Path $D 'glob
 $e11 += [pscustomobject]@{ test = 'lnk2005-cl'; compile_rc = $rc; run_exit = ''; run_sec = '' }
 Save-Csv $e11 'handbook-diag5.csv'
 Pop-Location
+
+# ---------- E12: does a plain Developer PowerShell put VS's cmake / ninja on PATH? ----------
+$vsx = $VS
+$probe = @"
+`$ErrorActionPreference = 'Continue'
+Import-Module '$vsx\Common7\Tools\Microsoft.VisualStudio.DevShell.dll'
+Enter-VsDevShell -VsInstallPath '$vsx' -SkipAutomaticLocation -DevCmdArguments '-arch=x64 -host_arch=x64' | Out-Null
+"cmake: " + (Get-Command cmake).Source
+"ninja: " + (Get-Command ninja).Source
+"cl:    " + (Get-Command cl).Source
+"git:   " + (Get-Command git).Source
+"@
+$probe | Out-File -Encoding utf8 "$ROOT\probe.ps1"
+powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$ROOT\probe.ps1" *>&1 | Out-File -Encoding utf8 (Join-Path $logd 'devshell-path.txt')
+
+# ---------- E13: building an author's commit with the student's presets (appendix B.5) ----------
+$b5 = @()
+foreach ($c in @('1e1d339', 'a34b13b')) {
+    $s = Join-Path $ROOT "b5\$c"
+    Extract-Commit $c $s
+    Copy-Item -Force "$HB\student\CMakePresets.json" $s
+    Push-Location $s
+    $log = Join-Path $logd "b5-$c.txt"
+    $rc1 = Invoke-Logged $CMAKE @('--preset', 'x64-release') $log
+    $rc2 = Invoke-Logged $CMAKE @('--build', 'out/build/x64-release') $log -append
+    $exe = Join-Path $s 'out\build\x64-release\tinyrenderer.exe'
+    $r = if (Test-Path $exe) { Run-Exe $exe $m1 $s 120 (Join-Path $logd "b5-$c-run.txt") } else { $null }
+    $b5 += [pscustomobject]@{ commit = $c; configure_rc = $rc1; build_rc = $rc2; run_exit = if ($r) { $r.exit } else { '' } }
+    Pop-Location
+}
+Save-Csv $b5 'handbook-b5.csv'
