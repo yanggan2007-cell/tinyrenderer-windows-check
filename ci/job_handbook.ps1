@@ -362,3 +362,10 @@ $dbgRows += Diag 'assert-cl-debug' 'cl' @('/Od', '/MDd', '/Zi') 'assert_fail.cpp
 $dbgRows += Diag 'assert-cl-release' 'cl' @('/O2', '/MD', '/DNDEBUG') 'assert_fail.cpp' '' 20
 Pop-Location
 Save-Csv $dbgRows 'handbook-debugruns.csv'
+
+# ---------- E10: narrowing, aggregate init vs braced assignment ----------
+Push-Location $dg
+$n2 = @()
+$n2 += Diag 'narrowing2-cl' 'cl' @() 'narrowing2.cpp'
+Save-Csv $n2 'handbook-diag4.csv'
+Pop-Location
