@@ -1,0 +1,241 @@
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.11.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.11.0
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+-- Build files have been written to: C:/code/master/out/build/x64-release
+[5/5] Linking CXX executable tinyrenderer.exe
+-- Build files have been written to: C:/code/master/out/build/x64-debug
+[5/5] Linking CXX executable tinyrenderer.exe
+### direct run with the array variable
+
+# v# 2519 f# 5022
+# v# 4 f# 2
+### Measure-Command (default output)
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+
+Ticks             : 58646091
+Days              : 0
+Hours             : 0
+Milliseconds      : 864
+Minutes           : 0
+Seconds           : 5
+TotalDays         : 6.78774201388889E-05
+TotalHours        : 0.00162905808333333
+TotalMilliseconds : 5864.6091
+TotalMinutes      : 0.097743485
+TotalSeconds      : 5.8646091
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+powershell.exe: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\job_arch4.ps1:32
+Line |
+  32 |  & "$env:SystemRoot\SysWOW64\WindowsPowerShell\v1.0\powershell.exe" -N …
+     |  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Cannot process the XML from the 'Error' stream of 'C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe':
+     | Data at the root level is invalid. Line 1, position 1.
+
+
+Ticks             : 3545747
+Days              : 0
+Hours             : 0
+Milliseconds      : 354
+Minutes           : 0
+Seconds           : 0
+TotalDays         : 4.10387384259259E-06
+TotalHours        : 9.84929722222222E-05
+TotalMilliseconds : 354.5747
+TotalMinutes      : 0.00590957833333333
+TotalSeconds      : 0.3545747
+
+
+
