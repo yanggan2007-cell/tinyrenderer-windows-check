@@ -1,0 +1,28 @@
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.10.3
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+Get-ExecutionPolicy: Restricted
+process is 64-bit: True
+VSINSTALLDIR=C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+VSCMD_ARG_TGT_ARCH=x86  VSCMD_ARG_HOST_ARCH=x86
+cl banner: Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x86
+cmake: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe  |  cmake version 4.3.1-msvc1
+ninja: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja.exe
+
+FAILED: [code=4294967295] tinyrenderer.exe 
+LINK: command "C:\PROGRA~1\MICROS~2\18\ENTERP~1\VC\Tools\MSVC\1451~1.362\bin\Hostx64\x64\link.exe /nologo 
+CMakeFiles\tinyrenderer.dir\main.cpp.obj CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj /out:tinyrenderer.exe 
+/implib:tinyrenderer.lib /pdb:tinyrenderer.pdb /version:0.0 /machine:x64 /INCREMENTAL:NO /subsystem:console 
+kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
+/MANIFEST:EMBED,ID=1" failed (exit code 1120) with the following output:
+main.cpp.obj : error LNK2019: unresolved external symbol "void * __cdecl operator new(unsigned __int64)" 
+(??2@YAPEAX_K@Z) referenced in function "void * __cdecl std::_Allocate<16,struct 
+std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate@$0BA@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)
+tgaimage.cpp.obj : error LNK2001: unresolved external symbol "void * __cdecl operator new(unsigned __int64)" 
+(??2@YAPEAX_K@Z)
+
+ninja: build stopped: subcommand failed.
+rc=-1
+
+

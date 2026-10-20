@@ -1,0 +1,10 @@
+gbk.cpp
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0x3 that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0x5 that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0x9 that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0xb that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0xc that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0xd that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0xe that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0xf that is not valid in the current source character set (codepage 65001).
+gbk.cpp(1): warning C4828: The file contains a character starting at offset 0x10 that is not valid in the current source character set (codepage 65001).

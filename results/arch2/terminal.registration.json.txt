@@ -1,0 +1,46 @@
+{
+  "$schema": "registration.schema.json",
+  "properties": {
+    "environment.terminal.profiles": {
+      "type": "array",
+      "title": "@SettingsProfileLabel;{E632CA91-B170-401A-AC2E-6B83FFDC3C10}",
+      "items": {
+        "type": "object",
+        "properties": {
+          "displayName": {
+            "type": "string",
+            "uniqueness": "caseInsensitive",
+            "title": "@SettingsNameLabel;{E632CA91-B170-401A-AC2E-6B83FFDC3C10}",
+            "default": "-"
+          },
+          "location": {
+            "type": "string",
+            "title": "@SettingsLocationLabel;{E632CA91-B170-401A-AC2E-6B83FFDC3C10}",
+            "format": "path",
+            "pathKind": "file",
+            "default": "%SYSTEMROOT%\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+          },
+          "arguments": {
+            "type": "string",
+            "title": "@SettingsArgsLabel;{E632CA91-B170-401A-AC2E-6B83FFDC3C10}",
+            "default": "-NoExit -Command \"& { Import-Module \"\"\"$env:VSAPPIDDIR\\..\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath $env:VSAPPIDDIR\\..\\..\\}\""
+          }
+        }
+      },
+      "default": [
+      ],
+      "itemsAreOrdered": false,
+      "hasUserSelectableDefaultItem": true,
+
+      "migrationCallback": {
+        "serviceId": "7A810946-8B53-4F17-A5DD-EF3BDF48BEEA"
+      }
+    }
+  },
+  "categories": {
+    "environment.terminal": {
+      "title": "@SettingsTitle;{E632CA91-B170-401A-AC2E-6B83FFDC3C10}",
+      "legacyOptionPageId": "629F9AE4-61B2-40AA-A4E1-1DC05DF45A4A"
+    }
+  }
+}

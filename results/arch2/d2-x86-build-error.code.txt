@@ -1,0 +1,12 @@
+Import-Module "C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
+"Get-ExecutionPolicy: " + (Get-ExecutionPolicy)
+"process is 64-bit: " + [Environment]::Is64BitProcess
+"VSINSTALLDIR=$env:VSINSTALLDIR"
+"VSCMD_ARG_TGT_ARCH=$env:VSCMD_ARG_TGT_ARCH  VSCMD_ARG_HOST_ARCH=$env:VSCMD_ARG_HOST_ARCH"
+"cl banner: " + ((cmd /c "cl 2>&1") | Select-Object -First 1)
+"cmake: " + (Get-Command cmake -ErrorAction SilentlyContinue).Source + "  |  " + ((cmake --version) | Select-Object -First 1)
+"ninja: " + (Get-Command ninja -ErrorAction SilentlyContinue).Source
+(Get-Item main.cpp).LastWriteTime = Get-Date
+cmake --build out/build/x64-release 2>&1 | Select-String -Pattern 'LNK|error|FAILED' | Select-Object -First 4
+cmake --build out/build/x64-release 2>&1 | Select-Object -Last 2
+"rc=$LASTEXITCODE"

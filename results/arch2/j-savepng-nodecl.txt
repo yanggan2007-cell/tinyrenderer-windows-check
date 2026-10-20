@@ -1,0 +1,5 @@
+nodecl.cpp
+nodecl.cpp(5): error C3861: 'save_png': identifier not found
+save_png.cpp
+tgaimage.cpp
+Generating Code...

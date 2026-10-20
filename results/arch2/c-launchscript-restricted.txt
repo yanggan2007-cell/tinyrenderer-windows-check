@@ -1,0 +1,27 @@
+**********************************************************************
+** Visual Studio 2026 Developer PowerShell v18.10.3
+** Copyright (c) 2026 Microsoft Corporation
+**********************************************************************
+Get-ExecutionPolicy: Restricted
+process is 64-bit: True
+VSINSTALLDIR=C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+VSCMD_ARG_TGT_ARCH=x86  VSCMD_ARG_HOST_ARCH=x86
+cl banner: Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x86
+cmake: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe  |  cmake version 4.3.1-msvc1
+ninja: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja.exe
+& : File C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\Launch-VsDevShell.ps1 cannot be loaded 
+
+because running scripts is disabled on this system. For more information, see about_Execution_Policies at 
+
+https:/go.microsoft.com/fwlink/?LinkID=135170.
+
+At line:5 char:3
+
++ & "$env:VSINSTALLDIR\Common7\Tools\Launch-VsDevShell.ps1" -Arch amd64 ...
+
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+
+    + FullyQualifiedErrorId : UnauthorizedAccess
+

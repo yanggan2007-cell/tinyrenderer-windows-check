@@ -1,0 +1,25 @@
+Import-Module "C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath "C:\Program Files\Microsoft Visual Studio\18\Enterprise"
+"Get-ExecutionPolicy: " + (Get-ExecutionPolicy)
+"process is 64-bit: " + [Environment]::Is64BitProcess
+"VSINSTALLDIR=$env:VSINSTALLDIR"
+"VSCMD_ARG_TGT_ARCH=$env:VSCMD_ARG_TGT_ARCH  VSCMD_ARG_HOST_ARCH=$env:VSCMD_ARG_HOST_ARCH"
+"cl banner: " + ((cmd /c "cl 2>&1") | Select-Object -First 1)
+"cmake: " + (Get-Command cmake -ErrorAction SilentlyContinue).Source + "  |  " + ((cmake --version) | Select-Object -First 1)
+"ninja: " + (Get-Command ninja -ErrorAction SilentlyContinue).Source
+Enter-VsDevShell -VsInstallPath $env:VSINSTALLDIR -SkipAutomaticLocation -Arch amd64 -HostArch amd64
+"Get-ExecutionPolicy: " + (Get-ExecutionPolicy)
+"process is 64-bit: " + [Environment]::Is64BitProcess
+"VSINSTALLDIR=$env:VSINSTALLDIR"
+"VSCMD_ARG_TGT_ARCH=$env:VSCMD_ARG_TGT_ARCH  VSCMD_ARG_HOST_ARCH=$env:VSCMD_ARG_HOST_ARCH"
+"cl banner: " + ((cmd /c "cl 2>&1") | Select-Object -First 1)
+"cmake: " + (Get-Command cmake -ErrorAction SilentlyContinue).Source + "  |  " + ((cmake --version) | Select-Object -First 1)
+"ninja: " + (Get-Command ninja -ErrorAction SilentlyContinue).Source
+"--- cmake --preset x64-release ---"
+cmake --preset x64-release 2>&1 | Select-Object -Last 3
+"rc=$LASTEXITCODE"
+"--- cmake --build out/build/x64-release ---"
+cmake --build out/build/x64-release 2>&1 | Select-Object -Last 12
+"rc=$LASTEXITCODE"
+if (Test-Path out\build\x64-release\tinyrenderer.exe) { "machine: " + ((dumpbin /headers out\build\x64-release\tinyrenderer.exe | Select-String 'machine \(') -join ' | ') }
+Remove-Item -ErrorAction SilentlyContinue framebuffer.tga
+if (Test-Path out\build\x64-release\tinyrenderer.exe) { & .\out\build\x64-release\tinyrenderer.exe; "run rc=$LASTEXITCODE  framebuffer.tga exists: $(Test-Path framebuffer.tga)" }

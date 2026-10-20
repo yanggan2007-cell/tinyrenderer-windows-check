@@ -1,0 +1,22 @@
+process is 64-bit: True
+VSINSTALLDIR=C:\Program Files\Microsoft Visual Studio\18\Enterprise\
+VSCMD_ARG_TGT_ARCH=x64  VSCMD_ARG_HOST_ARCH=x64
+cl banner: Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x64
+cmake: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe  |  cmake version 4.3.1-msvc1
+ninja: C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja\ninja.exe
+Get-ExecutionPolicy : The 'Get-ExecutionPolicy' command was found in the module 'Microsoft.PowerShell.Security', but 
+
+the module could not be loaded. For more information, run 'Import-Module Microsoft.PowerShell.Security'.
+
+At line:1 char:28
+
++ "Get-ExecutionPolicy: " + (Get-ExecutionPolicy)
+
++                            ~~~~~~~~~~~~~~~~~~~
+
+    + CategoryInfo          : ObjectNotFound: (Get-ExecutionPolicy:String) [], CommandNotFoundException
+
+    + FullyQualifiedErrorId : CouldNotAutoloadMatchingModule
+
+ 
+

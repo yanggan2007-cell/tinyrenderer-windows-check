@@ -1,0 +1,5 @@
+withdecl.cpp
+save_png.cpp
+tgaimage.cpp
+Generating Code...
+withdecl exit=0  test.png exists: True  size: 218
