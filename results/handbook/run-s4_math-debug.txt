@@ -1,0 +1,13 @@
+exit: 0
+seconds: 0.0183234
+peak_working_set_MiB: 0
+--- stdout ---
+det(A) = 6
+A^-1 =
+0.666667 0.166667 -0.5 
+-0 0.5 -0.5 
+-0.333333 -0.333333 1 
+all tests passed
+
+--- stderr ---
+

@@ -1,0 +1,4 @@
+"preset","configure_rc","build_rc","errors","warnings","sec"
+"x64-release","0","0","0","0","34"
+"x64-debug","0","0","0","0","22.4"
+"x64-release-clang","0","0","0","0","27.8"

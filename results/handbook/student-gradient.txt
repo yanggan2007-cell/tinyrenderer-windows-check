@@ -1,0 +1,9 @@
+[0/1] Re-running CMake...
+-- Configuring done (0.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/studentproj/out/build/x64-release
+[1/4] Building CXX object CMakeFiles\gradient.dir\gradient.cpp.obj
+[2/4] Building CXX object CMakeFiles\gradient.dir\tgaimage.cpp.obj
+[3/4] Linking CXX executable gradient.exe
+gradient.tga exists: True
+Measure-Command TotalSeconds: 0.0079502

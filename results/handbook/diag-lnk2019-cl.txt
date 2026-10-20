@@ -1,0 +1,5 @@
+lnk_main.cpp
+lnk_main.obj : error LNK2019: unresolved external symbol "public: __cdecl TGAImage::TGAImage(int,int,int)" (??0TGAImage@@QEAA@HHH@Z) referenced in function main
+lnk_main.obj : error LNK2019: unresolved external symbol "public: bool __cdecl TGAImage::write_tga_file(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,bool,bool)const " (?write_tga_file@TGAImage@@QEBA_NV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N1@Z) referenced in function main
+lnk_main.obj : error LNK2019: unresolved external symbol "public: void __cdecl TGAImage::set(int,int,struct TGAColor const &)" (?set@TGAImage@@QEAAXHHAEBUTGAColor@@@Z) referenced in function main
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\diagbuild\lnk2019-cl.exe : fatal error LNK1120: 3 unresolved externals

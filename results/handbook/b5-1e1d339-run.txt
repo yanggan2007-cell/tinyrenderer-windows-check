@@ -1,0 +1,8 @@
+exit: 0
+seconds: 0.0495137
+peak_working_set_MiB: 4.6
+--- stdout ---
+
+--- stderr ---
+# v# 2519 f# 5022
+

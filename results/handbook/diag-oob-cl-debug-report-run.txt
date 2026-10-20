@@ -1,0 +1,8 @@
+exit: -1073740791
+seconds: 0.2699413
+peak_working_set_MiB: 4.4
+--- stdout ---
+
+--- stderr ---
+C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\vector(1939) : Assertion failed: vector subscript out of range
+
