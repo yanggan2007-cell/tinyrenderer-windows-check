@@ -1,14 +1,14 @@
 # Part A: build (and run) every course commit with MSVC or clang-cl, as Visual Studio would (CMake + Ninja).
-param([string]$compiler = 'msvc', [switch]$run, [switch]$noomp)
+param([string]$compiler = 'msvc', [switch]$run, [switch]$noomp, [string]$list = 'commits.txt', [string]$suffix = '')
 . "$PSScriptRoot\common.ps1"
-$tag = if ($noomp) { "$compiler-noomp" } else { $compiler }
+$tag = $(if ($noomp) { "$compiler-noomp" } else { $compiler }) + $suffix
 $env:JOBNAME = "authors-$tag"
 $extra = if ($noomp) { @('-DCMAKE_DISABLE_FIND_PACKAGE_OpenMP=ON') } else { @() }
 Enter-VS
 Get-Ref
 $work = Join-Path $ROOT "work-$tag"
 $rows = @()
-foreach ($line in Get-Content "$ROOT\ci\commits.txt") {
+foreach ($line in Get-Content "$ROOT\ci\$list") {
     if (-not $line.Trim()) { continue }
     $parts = $line -split '\s+'
     $stage = $parts[0]; $c = $parts[1]; $name = $parts[2]

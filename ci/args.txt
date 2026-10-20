@@ -42,3 +42,4 @@ d59a98c | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
 974424b | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
 d96d729 | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
 0b2359c | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
+dfb973c | obj/diablo3_pose/diablo3_pose.obj obj/floor.obj
