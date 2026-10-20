@@ -1,0 +1,10 @@
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\constexpr_cos.cpp(2,31): error: constexpr variable 'c' must be initialized by a constant expression
+    2 | int main() { constexpr double c = std::cos(0.5); return c > 0 ? 0 : 1; }
+      |                               ^   ~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\constexpr_cos.cpp(2,35): note: non-constexpr function 'cos' cannot be used in a constant expression
+    2 | int main() { constexpr double c = std::cos(0.5); return c > 0 ? 0 : 1; }
+      |                                   ^
+C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt\corecrt_math.h(509,35): note: declared here
+  509 |     _Check_return_ double __cdecl cos(_In_ double _X);
+      |                                   ^
+1 error generated.

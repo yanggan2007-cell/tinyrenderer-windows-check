@@ -1,0 +1,5 @@
+gradient.tga: WIC error: Exception calling "Create" with "3" argument(s): "The image decoder cannot decode the image. The image might be corrupted."
+gradient.png: decoded by WIC, codec = PNG Decoder, 256x256
+installed WIC decoders:
+  Microsoft Raw Image Decoder: .3FR,.ARI,.ARW,.BAY,.CAP,.CR2,.CR3,.CRW,.DCS,.DCR,.DRF,.EIP,.ERF,.FFF,.IIQ,.K25,.KDC,.MEF,.MOS,.MRW,.NEF,.NRW,.ORF,.ORI,.PEF,.PTX,.PXN,.RAF,.RAW,.RW2,.RWL,.SR2,.SRF,.SRW,.X3F,.DNG
+  Microsoft JPEG XL Decoder: .JXL

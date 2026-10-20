@@ -1,0 +1,3 @@
+"test","compile_rc","run_exit"
+"clang-cl UBSan float-cast-overflow, a34b13b","0","0"
+"cl /fsanitize=address, master (no bug expected)","0","0"

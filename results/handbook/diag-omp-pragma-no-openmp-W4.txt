@@ -1,0 +1,11 @@
+omp_binding.cpp
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\omp_binding.cpp(9): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+        with
+        [
+            _Ty=int
+        ]
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\omp_binding.cpp(9): warning C4244: 'argument': conversion from 'double' to 'const _Ty', possible loss of data
+        with
+        [
+            _Ty=int
+        ]

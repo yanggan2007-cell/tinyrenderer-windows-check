@@ -1,0 +1,5 @@
+"test","compile_rc","run_exit","run_sec"
+"lnk2019-cl","2","",""
+"oob-cl-debug-report","0","-1073740791","0.231"
+"omp-binding-clangcl","1","",""
+"omp-binding-cl","0","0","0.035"
