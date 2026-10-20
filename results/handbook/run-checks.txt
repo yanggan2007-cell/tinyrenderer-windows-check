@@ -1,0 +1,70 @@
+exit: 0
+seconds: 1.413474
+peak_working_set_MiB: 4.3
+--- stdout ---
+[2.2.2] t += .02 loop runs 50 times, final t = 1.0000000000000004
+[2.2.4] float vs integer Bresenham, 20000 random lines in 64x64 (srand(1), rand()%64)
+  lines that differ: 2148 of 20000 (10.7%); differing positions per such line: max 9, total 2958
+  slope 5/42, after 21 additions: float error = 0.50000000000000011, integer ierror = 42 (dx = 42)
+[3.2.4] signed areas
+  (0,0),(4,0),(0,3): 6   swapped B,C: -6
+  (16,0),(0,12),(0,0): cross form 96, shoelace form 96; reversed: -96, -96
+[3.2.5] barycentric coordinates
+  P=(4,3): alpha=0.25 beta=0.25 gamma=0.5
+  P=(2,3): alpha=0.5 beta=0.2 gamma=0.3
+[4.2.4] 8-bit depth step = 2/255 = 0.0078
+[4.3.6] inverses
+  inv [[2,1],[1,1]] =
+1 -1 
+-1 2 
+  inv [[3,1],[2,1]] =
+1 -1 
+-2 3 
+  det A = 6, 6*inv(A) =
+4 1 -3 
+-0 3 -3 
+-2 -2 6 
+[5.2.5] homogeneous translation
+  point:     5 7 9 1 
+  direction: 4 5 6 0 
+[5.2.6] perspective matrix, c = 3
+  P*(1,1,1,1) = 1 1 1 0.666667   -> divided by w: 1.5 1.5 1.5 1 
+  self-test c=2, point (1,0,1): x' = 2
+[5.2.7] viewport 800x800: x0=y0=50, w=h=700
+  NDC x=-1 -> 50, x=1 -> 750, (0.5,-1) -> 575,50
+[5.2.8] lookat, eye=(-1,0,2), center=(0,0,0), up=(0,1,0)
+  n = -0.447214 0 0.894427 
+  l = 0.894427 -0 0.447214 
+  m = 0 1 0 
+  l x m = -0.447214 0 0.894427 
+  ModelView * eye = 0 0 2.23607 1   (sqrt(5) = 2.23607)
+  sanity check, eye=(0,0,3): ModelView =
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+[6.2.4] Phong example
+  n.l = 0.8, r = 0 -0.6 0.8 , r.v = 0.8
+  0.8^1 = 0.8000
+  0.8^5 = 0.3277
+  0.8^10 = 0.1074
+  0.8^35 = 0.0004
+  cos 60 deg = 0.500
+[6.2.6] normal transform under scale x by 2
+  M*n = 2 1 , (M^-1)^T*n = 0.5 1 , tangent M*t = 2 -1 
+  (M*n).(M*t) = 3, ((M^-1)^T*n).(M*t) = 0
+[7.2.1] uv (0.25,0.5) on 1024x1024 -> pixel (256,512)
+[7.3.2] colour 128 decodes to 0.0039, 255 decodes to 1.0000
+[7.4.2] tangent / bitangent example
+  U^-1 E =
+4 0 0 
+0 0 -4 
+  t = 1 0 0 , b = 0 0 -1 
+[7.5] perspective-correct interpolation, 1D example
+  A projects to -1, B to 0.333333, screen midpoint -0.333333, 3D parameter t = 0.25
+  corrected weights: (0.75, 0.25)
+[7.6.4] depth buffer memory: 8000^2*8 = 512000000 bytes (488 MiB); 2048^2*8 = 33554432 bytes (32 MiB); ratio 15.3
+all checks printed
+
+--- stderr ---
+

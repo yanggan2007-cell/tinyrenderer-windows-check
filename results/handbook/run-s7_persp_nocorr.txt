@@ -1,0 +1,14 @@
+exit: 0
+seconds: 0.1275635
+peak_working_set_MiB: 13.3
+--- stdout ---
+
+--- stderr ---
+obj/floor.obj: 4 vertices, 2 triangles
+600x600/32
+  texture obj/floor_diffuse.tga ok
+512x512/24
+  texture obj/floor_nm_tangent.tga ok
+1x1/24
+  texture obj/floor_spec.tga ok
+

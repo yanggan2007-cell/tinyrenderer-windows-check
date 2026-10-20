@@ -1,0 +1,13 @@
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\omp_binding.cpp(9,32): error: capturing a structured binding is not yet supported in OpenMP
+    9 |     for (int x = std::max<int>(lo, 0); x <= std::min<int>(hi, 100); x++) sum += x;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\omp_binding.cpp(6,11): note: 'lo' declared here
+    6 |     auto [lo, hi] = std::minmax({xs[0], xs[1], xs[2]});
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\omp_binding.cpp(9,59): error: capturing a structured binding is not yet supported in OpenMP
+    9 |     for (int x = std::max<int>(lo, 0); x <= std::min<int>(hi, 100); x++) sum += x;
+      |                                                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\omp_binding.cpp(6,15): note: 'hi' declared here
+    6 |     auto [lo, hi] = std::minmax({xs[0], xs[1], xs[2]});
+      |               ^
+2 errors generated.

@@ -1,0 +1,61 @@
+exit: 1
+seconds: 0.7544247
+peak_working_set_MiB: 14.5
+--- stdout ---
+
+--- stderr ---
+=================================================================
+==5992==ERROR: AddressSanitizer: heap-buffer-overflow on address 0x12cafc7a017c at pc 0x7ff7a6812fb9 bp 0x00e0921bf660 sp 0x00e0921bf668
+READ of size 4 at 0x12cafc7a017c thread T0
+    #0 0x7ff7a6812fb8 in main D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\asan_oob.cpp:7
+    #1 0x7ff7a6815d5e in invoke_main D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:78
+    #2 0x7ff7a6815d5e in __scrt_common_main_seh D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288
+    #3 0x7ffac6dee986  (C:\Windows\System32\KERNEL32.DLL+0x18002e986)
+    #4 0x7ffac7bec53b  (C:\Windows\SYSTEM32\ntdll.dll+0x18008c53b)
+
+0x12cafc7a017c is located 0 bytes after 12-byte region [0x12cafc7a0170,0x12cafc7a017c)
+allocated by thread T0 here:
+    #0 0x7ff7a6815125 in operator new(unsigned __int64) D:\a\_work\1\s\src\vctools\asan\llvm\compiler-rt\lib\asan\asan_win_new_scalar_thunk.cpp:40
+    #1 0x7ff7a68114c4 in std::vector<int,std::allocator<int> >::_Buy_nonzero C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\vector:2063
+    #2 0x7ff7a68114c4 in std::vector<int, class std::allocator<int>>::_Construct_n<int const &>(unsigned __int64, int const &) C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\vector:2120
+    #3 0x7ff7a6812f78 in std::vector<int,std::allocator<int> >::{ctor} C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\vector:689
+    #4 0x7ff7a6812f78 in main D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\asan_oob.cpp:5
+    #5 0x7ff7a6815d5e in invoke_main D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:78
+    #6 0x7ff7a6815d5e in __scrt_common_main_seh D:\a\_work\1\s\src\vctools\crt\vcstartup\src\startup\exe_common.inl:288
+    #7 0x7ffac6dee986  (C:\Windows\System32\KERNEL32.DLL+0x18002e986)
+    #8 0x7ffac7bec53b  (C:\Windows\SYSTEM32\ntdll.dll+0x18008c53b)
+
+SUMMARY: AddressSanitizer: heap-buffer-overflow D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\asan_oob.cpp:7 in main
+Shadow bytes around the buggy address:
+  0x12cafc79fe80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x12cafc79ff00: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x12cafc79ff80: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+  0x12cafc7a0000: fa fa fd fd fa fa 00 fa fa fa 00 00 fa fa 00 07
+  0x12cafc7a0080: fa fa 00 05 fa fa 00 06 fa fa 00 00 fa fa 00 00
+=>0x12cafc7a0100: fa fa 00 04 fa fa 00 00 fa fa 00 07 fa fa 00[04]
+  0x12cafc7a0180: fa fa fd fd fa fa fa fa fa fa fa fa fa fa fa fa
+  0x12cafc7a0200: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x12cafc7a0280: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x12cafc7a0300: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+  0x12cafc7a0380: fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa fa
+Shadow byte legend (one shadow byte represents 8 application bytes):
+  Addressable:           00
+  Partially addressable: 01 02 03 04 05 06 07 
+  Heap left redzone:       fa
+  Freed heap region:       fd
+  Stack left redzone:      f1
+  Stack mid redzone:       f2
+  Stack right redzone:     f3
+  Stack after return:      f5
+  Stack use after scope:   f8
+  Global redzone:          f9
+  Global init order:       f6
+  Poisoned by user:        f7
+  Container overflow:      fc
+  Array cookie:            ac
+  Intra object redzone:    bb
+  ASan internal:           fe
+  Left alloca redzone:     ca
+  Right alloca redzone:    cb
+==5992==ABORTING
+
