@@ -1,0 +1,45 @@
+-- The CXX compiler identification is MSVC 19.51.36260.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -openmp (found version "2.0")
+-- Found OpenMP: TRUE (found version "2.0") found components: CXX
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/work-msvc/ab559b1-model-culling/out/build/x64-release
+[1/4] Building CXX object CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
+[2/4] Building CXX object CMakeFiles\tinyrenderer.dir\main.cpp.obj
+C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\tuple(135): warning C4244: 'initializing': conversion from '_Ty' to '_Ty', possible loss of data
+        with
+        [
+            _Ty=double
+        ]
+        and
+        [
+            _Ty=int
+        ]
+C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\tuple(135): note: the template instantiation context (the oldest one first) is
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-msvc\ab559b1-model-culling\main.cpp(66): note: see reference to function template instantiation 'std::tuple<int,int>::tuple<double,double,0>(_This2 &&,double &&) noexcept' being compiled
+        with
+        [
+            _This2=double
+        ]
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-msvc\ab559b1-model-culling\main.cpp(66): note: see the first reference to 'std::tuple<int,int>::tuple' in 'project'
+C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\tuple(368): note: see reference to function template instantiation 'std::tuple<int,int>::tuple<std::_Exact_args_t,_Ty,_Ty,0>(_Tag,_This2 &&,_Ty &&)' being compiled
+        with
+        [
+            _Ty=double,
+            _Tag=std::_Exact_args_t,
+            _This2=double
+        ]
+C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\include\tuple(320): note: see reference to function template instantiation 'std::_Tuple_val<_This>::_Tuple_val<_Ty>(_Other &&)' being compiled
+        with
+        [
+            _This=int,
+            _Ty=double,
+            _Other=double
+        ]
+[3/4] Building CXX object CMakeFiles\tinyrenderer.dir\model.cpp.obj
+[4/4] Linking CXX executable tinyrenderer.exe

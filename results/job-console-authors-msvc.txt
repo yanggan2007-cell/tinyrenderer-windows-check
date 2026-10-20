@@ -1,0 +1,308 @@
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\706b2df-start.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\dd938ce-bresenham-1.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\1971e01-bresenham-2a.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\d7662fb-bresenham-2b.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\3998cbe-bresenham-3.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\2054b8c-bresenham-4a-timing.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\5c3a810-bresenham-4b-timing.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\dbd11a9-bresenham-4c-timing.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\477b3cd-bresenham-4d-timing.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\5c8360e-bresenham-integer.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\6aa8824-point-cloud.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\1e1d339-wireframe.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\9e2dcd6-triangle-start.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\582f04c-scanline-1.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\400b295-scanline-2.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\9cb66c7-scanline-3.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\ad5bb95-scanline-4.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\e2d55c3-bbox-1.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\fc3eae6-bbox-2.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\e25bb49-model-no-culling.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\ab559b1-model-culling.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\52c7f88-painter.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\af1c138-depth-interpolation.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\f1dd24e-zbuffer.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\a61a783-vectors-matrices.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\5776019-rotate.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\a34b13b-central-projection.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\c3ccbe7-float-zbuffer.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\dd62c22-camera.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\592ab4d-better-camera.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\637223c-refactor-random.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\df0c820-ambient.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\c45d23f-diffuse.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\27f4fd8-specular.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\e42447a-normal-interpolation.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\f68629a-global-normalmap.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\c2f439d-diffuse-specular-maps.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\32a4faa-tangent-normalmap.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\d59a98c-perspective-correction.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\219cda6-shadowmap.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\6f5a3a5-sobel.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\974424b-ao-bruteforce.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\d96d729-ssao.txt'.
+
+Out-File: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\ci\common.ps1:91
+Line |
+  91 |  … lt + "`n--- stderr ---`n" + $e.Result) | Out-File -Encoding utf8 $log
+     |                                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | Could not find a part of the path
+     | 'D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\results\run\msvc\0b2359c-toon.txt'.
+
