@@ -1,6 +1,10 @@
 name: windows-check
 on:
   workflow_dispatch:   # run by hand (Actions tab -> windows-check -> Run workflow); a full run uses many Windows runner minutes
+    inputs:
+      parts:
+        description: 'JSON list of parts (ao-small / ao-full take 7 / 65 minutes)'
+        default: '["authors-msvc", "authors-clang", "authors-clang-noomp", "authors-extra", "flow", "handbook", "probe", "arch", "arch2", "arch3", "arch4", "arch5"]'
 permissions:
   contents: write
 jobs:
@@ -10,7 +14,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [authors-msvc, authors-clang, authors-clang-noomp, authors-extra, flow, handbook, probe, arch, arch2, arch3, arch4]   # ao-small / ao-full take 7 / 65 minutes, add them when needed
+        part: ${{ fromJSON(inputs.parts) }}
     steps:
       - uses: actions/checkout@v4
       - name: Python packages
