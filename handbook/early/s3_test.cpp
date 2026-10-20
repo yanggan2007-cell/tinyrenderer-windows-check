@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <tuple>
 #include "tgaimage.h"
-#include "mymodel.h"
+#include "model.h"
 #include "s3_triangle.inc"   // [hide]
 //@ // …… 这里放上面的 signed_triangle_area() 和 triangle() ……
 constexpr int width = 800, height = 800;

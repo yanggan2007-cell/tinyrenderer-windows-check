@@ -1,4 +1,4 @@
-add_library(late_core STATIC our_gl.cpp model2.cpp tgaimage.cpp)
+add_library(late_core STATIC our_gl.cpp model.cpp tgaimage.cpp)
 target_include_directories(late_core PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 # four renderers built from the same main with different shaders
 foreach(cfg "flat;FlatShader;s6_flat.inc;_nm.tga" "smooth;SmoothShader;s6_smooth.inc;_nm.tga"
@@ -19,7 +19,7 @@ endforeach()
 file(READ our_gl.cpp GLSRC)
 string(REPLACE "shader.fragment(bc_clip)" "shader.fragment(bc_screen)" GLSRC_NOCORR "${GLSRC}")
 file(WRITE ${CMAKE_CURRENT_BINARY_DIR}/our_gl_nocorr.cpp "${GLSRC_NOCORR}")
-add_executable(persp_demo_nocorr persp_demo.cpp ${CMAKE_CURRENT_BINARY_DIR}/our_gl_nocorr.cpp model2.cpp tgaimage.cpp)
+add_executable(persp_demo_nocorr persp_demo.cpp ${CMAKE_CURRENT_BINARY_DIR}/our_gl_nocorr.cpp model.cpp tgaimage.cpp)
 target_include_directories(persp_demo_nocorr PRIVATE ${CMAKE_CURRENT_SOURCE_DIR})
 # shadow mapping: the handbook's code (2048) plus size / bias variants
 file(READ s7_shadow_main.inc SHSRC)

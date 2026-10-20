@@ -1,7 +1,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
-#include "mymodel.h"
+#include "model.h"
 
 Model::Model(const std::string &filename) {
     std::ifstream in(filename);                       // 相当于 C 的 fopen(filename, "r")

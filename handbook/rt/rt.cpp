@@ -4,7 +4,7 @@
 #include <chrono>
 #include <limits>
 #include <cstring>
-#include "model2.h"                              // 阶段 6 写的模型读取器
+#include "model.h"                              // 阶段 6 写的模型读取器
 
 struct Ray { vec3 o, d; };                       // 光线：起点 o + t × 方向 d
 struct Tri { vec3 a, b, c; };

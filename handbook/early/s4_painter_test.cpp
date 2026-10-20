@@ -4,7 +4,7 @@
 #include <tuple>
 #include <vector>
 #include "tgaimage.h"
-#include "mymodel.h"
+#include "model.h"
 #include "s3_triangle_cull.inc"
 constexpr int width = 800, height = 800;
 std::tuple<int, int> project(vec3 v) { return { int((v.x + 1.) * width / 2), int((v.y + 1.) * height / 2) }; }

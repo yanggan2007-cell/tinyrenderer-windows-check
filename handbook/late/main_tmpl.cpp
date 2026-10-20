@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <cmath>
 #include "our_gl.h"
-#include "model2.h"
+#include "model.h"
 extern mat<4,4> ModelView, Perspective;
 #include SHADER_FILE   // [hide]
 //@ // …… 你的着色器（FlatShader、SmoothShader……）定义放在这里 ……

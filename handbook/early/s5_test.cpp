@@ -5,7 +5,7 @@
 #include <numbers>
 #include <vector>
 #include "tgaimage.h"
-#include "mymodel.h"
+#include "model.h"
 #include "s5_rot.inc"
 #include "s5_gl.inc"
 #include "s5_rasterize.inc"

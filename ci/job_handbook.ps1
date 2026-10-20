@@ -241,7 +241,7 @@ Pop-Location
 $a = Join-Path $ROOT 'sanit\master'
 Extract-Commit 'master' $a
 Push-Location $a
-$rc = Invoke-Logged 'cl' @('/nologo', '/EHsc', '/std:c++20', '/utf-8', '/D_USE_MATH_DEFINES', '/Zi', '/fsanitize=address', '*.cpp', '/Fe:asan.exe') (Join-Path $logd 'sanit-asan-master-build.txt')
+$rc = Invoke-Logged 'cl' @('/nologo', '/EHsc', '/std:c++20', '/utf-8', '/D_USE_MATH_DEFINES', '/Zi', '/fsanitize=address', 'main.cpp', 'our_gl.cpp', 'model.cpp', 'tgaimage.cpp', '/Fe:asan.exe') (Join-Path $logd 'sanit-asan-master-build.txt')
 $r = if (Test-Path "$a\asan.exe") { Run-Exe "$a\asan.exe" $m2 $a 600 (Join-Path $logd 'sanit-asan-master-run.txt') } else { $null }
 $san += [pscustomobject]@{ test = 'cl /fsanitize=address, master (no bug expected)'; compile_rc = $rc; run_exit = if ($r) { $r.exit } else { '' } }
 Pop-Location

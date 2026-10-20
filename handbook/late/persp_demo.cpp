@@ -1,7 +1,7 @@
 #include <algorithm>
 #include <cmath>
 #include "our_gl.h"
-#include "model2.h"
+#include "model.h"
 extern mat<4,4> ModelView, Perspective;
 #include "s7_tangent.inc"
 int main(int argc, char **argv) {

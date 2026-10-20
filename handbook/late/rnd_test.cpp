@@ -2,7 +2,7 @@
 #include <cmath>
 #include <cstdlib>
 #include "our_gl.h"
-#include "model2.h"
+#include "model.h"
 extern mat<4,4> ModelView, Perspective;
 #include "s6_random.inc"
 int main(int argc, char **argv) {

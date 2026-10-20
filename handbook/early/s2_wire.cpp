@@ -2,7 +2,7 @@
 #include <utility>
 #include <tuple>
 #include "tgaimage.h"
-#include "mymodel.h"
+#include "model.h"
 #include "s2_line_int.inc"   // [hide]
 //@ // …… 这里放上面的整数版 line() ……
 constexpr int width = 800, height = 800;

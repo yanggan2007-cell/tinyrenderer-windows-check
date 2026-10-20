@@ -1,7 +1,7 @@
 #include <fstream>
 #include <iostream>
 #include <sstream>
-#include "model2.h"
+#include "model.h"
 
 Model::Model(const std::string &filename, const std::string &nm_suffix) {
     std::ifstream in(filename);
@@ -25,7 +25,7 @@ Model::Model(const std::string &filename, const std::string &nm_suffix) {
             }
         }
     }
-    // 控制台消息用英文：中文在 Windows 控制台里很容易显示成乱码（见 1.2.8）
+    // 控制台消息用英文：中文在 Windows 控制台里很容易显示成乱码（见 1.2.9）
     std::cerr << filename << ": " << verts.size() << " vertices, " << nfaces() << " triangles\n";
     auto load = [&filename](const std::string &suffix, TGAImage &img) {   // lambda：就地定义的小函数
         std::string texfile = filename.substr(0, filename.find_last_of('.')) + suffix;

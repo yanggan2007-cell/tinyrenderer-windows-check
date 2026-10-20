@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <tuple>
 #include "tgaimage.h"
-#include "mymodel.h"
+#include "model.h"
 constexpr int width = 800, height = 800;
 double signed_triangle_area(int ax, int ay, int bx, int by, int cx, int cy) {   // [hide]
     return .5 * ((bx - ax) * (cy - ay) - (cx - ax) * (by - ay)); }               // [hide]
