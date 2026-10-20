@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [arch, handbook]
+        part: [arch2]
     steps:
       - uses: actions/checkout@v4
       - name: Python packages
