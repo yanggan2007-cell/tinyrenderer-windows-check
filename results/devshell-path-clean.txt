@@ -1,0 +1,10 @@
+before Enter-VsDevShell: cmake found = True
+after:  cmake = C:\Strawberry\c\bin\cmake.exe
+after:  ninja = C:\Strawberry\c\bin\ninja.exe
+after:  cl    = C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX64\x64\cl.exe
+after:  clang-cl = C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin\clang-cl.exe
+cmake --version: cmake version 3.29.2
+PATH entries mentioning CMake / Ninja / Llvm, in order:
+  [83] C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\Llvm\x64\bin
+  [84] C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin
+  [85] C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\CMake\Ninja
