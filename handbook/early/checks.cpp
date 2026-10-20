@@ -23,6 +23,11 @@ static void bary(double ax, double ay, double bx, double by, double cx, double c
 }
 
 int main() {
+    {   // line_v1 samples: how many times does "for (t = 0; t <= 1; t += .02)" run?
+        int n = 0; double t = 0.;
+        for (; t <= 1.; t += .02) n++;
+        std::printf("[2.2.2] t += .02 loop runs %d times, final t = %.17g\n", n, t);
+    }
     std::printf("[2.2.4] float vs integer Bresenham, 20000 random lines in 64x64 (srand(1), rand()%%64)\n");
     std::srand(1);
     int lines_diff = 0, max_pos = 0, total_pos = 0;

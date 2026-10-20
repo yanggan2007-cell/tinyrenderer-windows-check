@@ -310,3 +310,43 @@ cmd /c "git -C ..\tinyrenderer-ref show 6aa8824:geometry.h > geometry.h"
 "@
 $gscript | Out-File -Encoding utf8 "$g\test.ps1"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$g\test.ps1" *>&1 | Out-File -Encoding utf8 (Join-Path $logd 'powershell51-git.txt')
+
+# ---------- E8: more small checks ----------
+Push-Location $dg
+$more2 = @()
+$more2 += Diag 'omp-unsigned-cl' 'cl' @('/O2', '/openmp') 'omp_unsigned.cpp'
+$more2 += Diag 'omp-pragma-no-openmp-W4' 'cl' @('/O2', '/W4') 'omp_binding.cpp'
+Save-Csv $more2 'handbook-diag3.csv'
+Pop-Location
+# Pillow (a strict TGA reader) on TGAImage's default RLE output vs. uncompressed output
+$pt = Join-Path $ROOT 'pillowtest'
+New-Item -ItemType Directory -Force $pt | Out-Null
+"#include `"tgaimage.h`"`nint main(){ TGAImage a(256,256,TGAImage::RGB); for(int y=0;y<256;y++) for(int x=0;x<256;x++){ TGAColor c={0,0,0,255}; c[2]=x; c[1]=y; a.set(x,y,c);} a.write_tga_file(`"rle.tga`"); a.write_tga_file(`"raw.tga`", true, false); return 0; }" | Out-File -Encoding ascii "$pt\mk.cpp"
+Push-Location $pt
+Invoke-Logged 'cl' @('/nologo', '/EHsc', '/std:c++20', '/O2', "/I$HB\early", 'mk.cpp', "$HB\early\tgaimage.cpp", '/Fe:mk.exe') (Join-Path $logd 'pillow-mk-build.txt') | Out-Null
+& .\mk.exe
+$py = @'
+import sys, PIL
+from PIL import Image
+print("Pillow", PIL.__version__)
+for f in ("rle.tga", "raw.tga"):
+    try:
+        im = Image.open(f); im.load(); print(f, "OK", im.size, im.mode)
+    except Exception as e:
+        print(f, "FAILED:", type(e).__name__, e)
+'@
+$py | Out-File -Encoding ascii "$pt\t.py"
+python "$pt\t.py" *>&1 | Out-File -Encoding utf8 (Join-Path $logd 'pillow-rle.txt')
+"sizes: rle.tga=$((Get-Item rle.tga).Length) raw.tga=$((Get-Item raw.tga).Length)" | Out-File -Append -Encoding utf8 (Join-Path $logd 'pillow-rle.txt')
+Pop-Location
+# Student project: a second executable via add_executable, and Measure-Command as printed in the handbook
+Push-Location $st
+Copy-Item -Force "$HB\early\s1_gradient.cpp" (Join-Path $st 'gradient.cpp')
+Add-Content -Path (Join-Path $st 'CMakeLists.txt') -Value 'add_executable(gradient gradient.cpp tgaimage.cpp)'
+$log = Join-Path $logd 'student-gradient.txt'
+Invoke-Logged $CMAKE @('--build', 'out/build/x64-release') $log | Out-Null
+$r = Run-Exe (Join-Path $st 'out\build\x64-release\gradient.exe') '' $st 60 (Join-Path $logd 'student-gradient-run.txt')
+"gradient.tga exists: $(Test-Path (Join-Path $st 'gradient.tga'))" | Out-File -Append -Encoding utf8 $log
+$mc = Measure-Command { .\out\build\x64-release\tinyrenderer.exe }
+"Measure-Command TotalSeconds: $($mc.TotalSeconds)" | Out-File -Append -Encoding utf8 $log
+Pop-Location
