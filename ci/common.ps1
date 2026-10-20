@@ -57,6 +57,7 @@ function Extract-Commit($commit, $dest) {
 }
 
 function Invoke-Logged($exe, [string[]]$argv, $log, [switch]$append) {
+    New-Item -ItemType Directory -Force (Split-Path $log) | Out-Null
     if ($append) { & $exe @argv *>&1 | Out-File -Append -Encoding utf8 $log }
     else         { & $exe @argv *>&1 | Out-File -Encoding utf8 $log }
     return $LASTEXITCODE
@@ -78,6 +79,7 @@ function Build-CMake($src, $bld, $compiler, $config, [string[]]$extra, $log) {
 }
 
 function Run-Exe($exe, [string]$argList, $cwd, $timeoutSec, $log) {
+    New-Item -ItemType Directory -Force (Split-Path $log) | Out-Null
     $psi = New-Object System.Diagnostics.ProcessStartInfo
     $psi.FileName = $exe; $psi.Arguments = $argList; $psi.WorkingDirectory = $cwd
     $psi.RedirectStandardOutput = $true; $psi.RedirectStandardError = $true; $psi.UseShellExecute = $false

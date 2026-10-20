@@ -7,7 +7,7 @@
 #include "s3_triangle.inc"   // [hide]
 //@ // …… 这里放上面的 signed_triangle_area() 和 triangle() ……
 constexpr int width = 800, height = 800;
-std::tuple<int, int> project(vec3 v) { return { (v.x + 1.) * width / 2, (v.y + 1.) * height / 2 }; }
+std::tuple<int, int> project(vec3 v) { return { int((v.x + 1.) * width / 2), int((v.y + 1.) * height / 2) }; }
 int main(int argc, char **argv) {
     TGAImage small(128, 128, TGAImage::RGB);
     triangle(  7, 45, 35, 100, 45,  60, small, {0, 0, 255, 255});

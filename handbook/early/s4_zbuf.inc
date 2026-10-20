@@ -21,5 +21,5 @@ void triangle(int ax, int ay, int az, int bx, int by, int bz, int cx, int cy, in
 
 // project 现在多返回一个 z：把 [-1,1] 映射到 [0,255]，数值越大越靠近观察者
 std::tuple<int, int, int> project(vec3 v) {
-    return { (v.x + 1.) * width / 2, (v.y + 1.) * height / 2, (v.z + 1.) * 255. / 2 };
+    return { int((v.x + 1.) * width / 2), int((v.y + 1.) * height / 2), int((v.z + 1.) * 255. / 2) };
 }

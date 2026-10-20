@@ -9,7 +9,7 @@ constexpr int width = 800, height = 800;
 
 // 正交投影 + 视口变换：丢掉 z，把 [-1,1] 映射到 [0,width] × [0,height]
 std::tuple<int, int> project(vec3 v) {
-    return { (v.x + 1.) * width / 2, (v.y + 1.) * height / 2 };
+    return { int((v.x + 1.) * width / 2), int((v.y + 1.) * height / 2) };   // 显式转成 int（截掉小数）
 }
 
 int main(int argc, char **argv) {

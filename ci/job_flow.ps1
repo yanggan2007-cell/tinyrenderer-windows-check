@@ -74,6 +74,12 @@ foreach ($i in 1..3) {
     $exe = Join-Path $bld 'tinyrenderer.exe'
     if (Test-Path $exe) { $r = Run-Exe $exe $args2 $src 900 (Join-Path $RES "flow\timing-clang-Release-$i.txt"); $rows += [pscustomobject]@{ what = 'master Release (Ninja+clang-cl)'; run = $i; exit = $r.exit; sec = $r.sec } }
 }
+$bld = Join-Path $src 'out\build\clang-Release-noOpenMP'
+$b = Build-CMake $src $bld 'clang' 'Release' @('-DCMAKE_DISABLE_FIND_PACKAGE_OpenMP=ON') (Join-Path $RES 'flow\timing-clang-Release-noOpenMP-build.txt')
+foreach ($i in 1..3) {
+    $exe = Join-Path $bld 'tinyrenderer.exe'
+    if (Test-Path $exe) { $r = Run-Exe $exe $args2 $src 900 (Join-Path $RES "flow\timing-clang-Release-noOpenMP-$i.txt"); $rows += [pscustomobject]@{ what = 'master Release (Ninja+clang-cl, OpenMP off)'; run = $i; exit = $r.exit; sec = $r.sec } }
+}
 Save-Csv $rows 'flow-timings.csv'
 
 # ---- B4: Bresenham timing experiment of the course (2^24 random lines), Release, 3 runs each ----

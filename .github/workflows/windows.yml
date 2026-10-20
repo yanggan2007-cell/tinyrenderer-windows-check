@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [authors-msvc, authors-clang, flow, handbook]
+        part: [flow, handbook]
     steps:
       - uses: actions/checkout@v4
       - name: Python packages

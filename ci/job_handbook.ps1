@@ -147,30 +147,64 @@ Pop-Location
 
 # ---------- E3: getting the starting code from Windows PowerShell 5.1 (the default "Developer PowerShell") ----------
 $ps = Join-Path $ROOT 'pstest'
-New-Item -ItemType Directory -Force "$ps\pipe", "$ps\zip", "$ps\tarzip" | Out-Null
+New-Item -ItemType Directory -Force $ps | Out-Null
 $script = @"
 `$ErrorActionPreference = 'Continue'
 "PowerShell " + `$PSVersionTable.PSVersion
-"--- A: git archive | tar -x (binary pipe)"
-cd '$ps\pipe'
+`$HOMEDIR = '$ps'
+"--- A: pipe git archive into tar (works on Linux/macOS shells, NOT in Windows PowerShell 5.1)"
+New-Item -ItemType Directory -Force `$HOMEDIR\pipe | Out-Null
+cd `$HOMEDIR\pipe
 git -C '$REF' archive 706b2df | tar -xf - 2>&1
 "exit: `$LASTEXITCODE"
 (Get-ChildItem -Recurse -File | Measure-Object).Count.ToString() + ' files'
-"--- B: git archive --format=zip + Expand-Archive"
-cd '$ps\zip'
-git -C '$REF' archive --format=zip -o ..\starter.zip 706b2df
-"exit: `$LASTEXITCODE"
+"--- B: the handbook's commands"
+mkdir `$HOMEDIR\code | Out-Null
+cd `$HOMEDIR\code
+git clone -q '$REF' tinyrenderer-ref
+mkdir my-renderer | Out-Null
+cd my-renderer
+git init -q
+cd ..\tinyrenderer-ref
+git archive --format=zip -o ..\starter.zip 706b2df
+"git archive exit: `$LASTEXITCODE"
+cd ..\my-renderer
 Expand-Archive ..\starter.zip -DestinationPath .
+Copy-Item ..\tinyrenderer-ref\LICENSE.txt .
+Get-ChildItem -Name
 (Get-ChildItem -Recurse -File | Measure-Object).Count.ToString() + ' files'
-"--- C: tar -xf on the zip"
-cd '$ps\tarzip'
-tar -xf ..\starter.zip 2>&1
+"--- C: tar can also unpack the zip"
+New-Item -ItemType Directory -Force `$HOMEDIR\tarzip | Out-Null
+cd `$HOMEDIR\tarzip
+tar -xf ..\code\starter.zip 2>&1
 "exit: `$LASTEXITCODE"
 (Get-ChildItem -Recurse -File | Measure-Object).Count.ToString() + ' files'
+"--- D: git show of one file from another commit"
+cd `$HOMEDIR\code\my-renderer
+git -C ..\tinyrenderer-ref show 6aa8824:geometry.h > geometry.h
+"geometry.h first bytes: " + ([BitConverter]::ToString([IO.File]::ReadAllBytes("`$PWD\geometry.h")[0..5]))
+git -C ..\tinyrenderer-ref show 6aa8824:geometry.h | Out-File -Encoding ascii geometry2.h
+"geometry2.h first bytes: " + ([BitConverter]::ToString([IO.File]::ReadAllBytes("`$PWD\geometry2.h")[0..5]))
 "@
 $script | Out-File -Encoding utf8 "$ps\test.ps1"
 powershell.exe -NoProfile -ExecutionPolicy Bypass -File "$ps\test.ps1" *>&1 | Out-File -Encoding utf8 (Join-Path $logd 'powershell51-getting-code.txt')
 pwsh -NoProfile -Command "cd '$ps'; New-Item -ItemType Directory -Force pipe7 | Out-Null; cd pipe7; git -C '$REF' archive 706b2df | tar -xf - 2>&1; 'exit: ' + `$LASTEXITCODE; (Get-ChildItem -Recurse -File | Measure-Object).Count.ToString() + ' files'" *>&1 | Out-File -Encoding utf8 (Join-Path $logd 'powershell7-pipe.txt')
+# does the redirected geometry.h (UTF-16 in PS 5.1) still compile?
+$gtest = Join-Path $ps 'code\my-renderer'
+"#include `"geometry.h`"`nint main(){ vec3 v{1,2,3}; return (int)v.x - 1; }" | Out-File -Encoding ascii "$gtest\gtest.cpp"
+Push-Location $gtest
+Invoke-Logged 'cl' @('/nologo', '/EHsc', '/std:c++20', 'gtest.cpp') (Join-Path $logd 'powershell51-redirect-compile.txt') | Out-Null
+Pop-Location
+
+# ---------- E2b: more diagnostics ----------
+Push-Location $dg
+$more = @()
+$more += Diag 'lnk2019-cl' 'cl' @() 'lnk_main.cpp'
+$more += Diag 'oob-cl-debug-report' 'cl' @('/Od', '/MDd', '/Zi') 'oob_report.cpp' '' 30
+$more += Diag 'omp-binding-clangcl' $CLANGCL @('/O2', '-openmp') 'omp_binding.cpp'
+$more += Diag 'omp-binding-cl' 'cl' @('/O2', '/openmp') 'omp_binding.cpp'
+Save-Csv $more 'handbook-diag2.csv'
+Pop-Location
 
 # ---------- E4: the student project template (starter code + recommended CMakeLists / presets) ----------
 $st = Join-Path $ROOT 'studentproj'
