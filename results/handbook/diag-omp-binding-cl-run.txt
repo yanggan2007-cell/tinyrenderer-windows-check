@@ -1,0 +1,8 @@
+exit: 0
+seconds: 0.1617819
+peak_working_set_MiB: 3.4
+--- stdout ---
+28
+
+--- stderr ---
+

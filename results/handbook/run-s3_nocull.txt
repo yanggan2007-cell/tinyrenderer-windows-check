@@ -1,0 +1,8 @@
+exit: 0
+seconds: 0.0382589
+peak_working_set_MiB: 0
+--- stdout ---
+
+--- stderr ---
+vertices: 2519, triangles: 5022
+

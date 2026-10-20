@@ -1,0 +1,2 @@
+mpi_test.cpp
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\mpi_test.cpp(4): error C2065: 'M_PI': undeclared identifier
