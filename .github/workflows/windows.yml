@@ -1,8 +1,6 @@
 name: windows-check
 on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+  workflow_dispatch:   # run by hand (Actions tab -> windows-check -> Run workflow); a full run uses many Windows runner minutes
 permissions:
   contents: write
 jobs:
@@ -12,7 +10,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [arch4]
+        part: [authors-msvc, authors-clang, authors-clang-noomp, authors-extra, flow, handbook, probe, arch, arch2, arch3, arch4]   # ao-small / ao-full take 7 / 65 minutes, add them when needed
     steps:
       - uses: actions/checkout@v4
       - name: Python packages
