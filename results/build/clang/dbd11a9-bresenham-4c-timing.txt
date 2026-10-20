@@ -1,0 +1,352 @@
+-- The CXX compiler identification is Clang 22.1.3 with MSVC-like command-line
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/Llvm/x64/bin/clang-cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.1")
+-- Found OpenMP: TRUE (found version "5.1") found components: CXX
+-- Configuring done (2.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/work-clang/dbd11a9-bresenham-4c-timing/out/build/x64-release
+[1/3] Building CXX object CMakeFiles\tinyrenderer.dir\main.cpp.obj
+FAILED: [code=1] CMakeFiles/tinyrenderer.dir/main.cpp.obj 
+C:\PROGRA~1\MICROS~2\18\ENTERP~1\VC\Tools\Llvm\x64\bin\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD -Wall -Xclang -fopenmp -clang:-MD -clang:-MTCMakeFiles\tinyrenderer.dir\main.cpp.obj -clang:-MFCMakeFiles\tinyrenderer.dir\main.cpp.obj.d /FoCMakeFiles\tinyrenderer.dir\main.cpp.obj /FdCMakeFiles\tinyrenderer.dir\ -c -- D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp:4:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(31,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   31 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(44,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(44,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(45,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(46,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(46,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(46,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(23,18): warning: implicit conversion from 'int' to 'float' may lose precision [-Wimplicit-int-float-conversion]
+   23 |         error += std::abs(by-ay)/static_cast<float>(bx-ax);
+      |                  ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(24,13): warning: implicit conversion increases floating-point precision: 'float' to 'double' [-Wdouble-promotion]
+   24 |         if (error>.5) {
+      |             ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(26,22): warning: implicit conversion when assigning computation result loses floating-point precision: 'double' to 'float' [-Wimplicit-float-conversion]
+   26 |             error -= 1.;
+      |                   ~~ ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(6,6): warning: no previous prototype for function 'line' [-Wmissing-prototypes]
+    6 | void line(int ax, int ay, int bx, int by, TGAImage &framebuffer, TGAColor color) {
+      |      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(6,1): note: declare 'static' if the function is not intended to be used outside of this translation unit
+    6 | void line(int ax, int ay, int bx, int by, TGAImage &framebuffer, TGAColor color) {
+      | ^
+      | static 
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(32,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   32 |     constexpr int width  = 64;
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(33,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   33 |     constexpr int height = 64;
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(36,26): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   36 |     std::srand(std::time({}));
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(36,26): warning: scalar initialized from empty initializer list is incompatible with C++98 [-Wc++98-compat]
+   36 |     std::srand(std::time({}));
+      |                          ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,43): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,45): error: non-constant-expression cannot be narrowed from type 'int' to 'std::uint8_t' (aka 'unsigned char') in initializer list [-Wc++11-narrowing]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                             ^~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,45): note: insert an explicit cast to silence this issue
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                             ^~~~~~~~~~
+      |                                             static_cast<uint8_t>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,57): error: non-constant-expression cannot be narrowed from type 'int' to 'std::uint8_t' (aka 'unsigned char') in initializer list [-Wc++11-narrowing]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                                         ^~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,57): note: insert an explicit cast to silence this issue
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                                         ^~~~~~~~~~
+      |                                                         static_cast<uint8_t>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,69): error: non-constant-expression cannot be narrowed from type 'int' to 'std::uint8_t' (aka 'unsigned char') in initializer list [-Wc++11-narrowing]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                                                     ^~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,69): note: insert an explicit cast to silence this issue
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                                                     ^~~~~~~~~~
+      |                                                                     static_cast<uint8_t>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,81): error: non-constant-expression cannot be narrowed from type 'int' to 'std::uint8_t' (aka 'unsigned char') in initializer list [-Wc++11-narrowing]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                                                                 ^~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,81): note: insert an explicit cast to silence this issue
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                                                                 ^~~~~~~~~~
+      |                                                                                 static_cast<uint8_t>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,45): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                             {                                             }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,87): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                             ~~~~                                ~~~~~~^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,75): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                             ~~~~                    ~~~~~~^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,63): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                             ~~~~        ~~~~~~^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(40,51): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   40 |         line(ax, ay, bx, by, framebuffer, { rand()%255, rand()%255, rand()%255, rand()%255 });
+      |                                             ~~~~~~^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(31,14): warning: unused parameter 'argc' [-Wunused-parameter]
+   31 | int main(int argc, char** argv) {
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(31,27): warning: unused parameter 'argv' [-Wunused-parameter]
+   31 | int main(int argc, char** argv) {
+      |                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\main.cpp(36,16): warning: implicit conversion loses integer precision: 'time_t' (aka 'long long') to 'unsigned int' [-Wshorten-64-to-32]
+   36 |     std::srand(std::time({}));
+      |     ~~~        ^~~~~~~~~~~~~
+38 warnings and 4 errors generated.
+[2/3] Building CXX object CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(31,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   31 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(44,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(44,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(45,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(46,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(46,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(5,79): warning: implicit conversion loses integer precision: 'const int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                                                              ~^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(5,93): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                                                                     ~~~~ ~~~^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(5,30): warning: constructor parameter 'w' shadows the field 'w' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(44,9): note: previous declaration is here
+   44 |     int w = 0, h = 0;
+      |         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(5,43): warning: constructor parameter 'h' shadows the field 'h' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(44,16): note: previous declaration is here
+   44 |     int w = 0, h = 0;
+      |                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(5,56): warning: constructor parameter 'bpp' shadows the field 'bpp' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(45,18): note: previous declaration is here
+   45 |     std::uint8_t bpp = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(27,26): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+   27 |     size_t nbytes = bpp*w*h;
+      |            ~~~~~~   ~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(30,56): warning: implicit conversion changes signedness: 'size_t' (aka 'unsigned long long') to 'streamsize' (aka 'long long') [-Wsign-conversion]
+   30 |         in.read(reinterpret_cast<char *>(data.data()), nbytes);
+      |            ~~~~                                        ^~~~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(46,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(41,48): warning: use of old-style cast [-Wold-style-cast]
+   41 |         std::cerr << "unknown file format " << (int)header.datatypecode << "\n";
+      |                                                ^    ~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(53,26): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+   53 |     size_t pixelcount = w*h;
+      |            ~~~~~~~~~~   ~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(59,26): warning: implicit conversion loses integer precision: 'int_type' (aka 'int') to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   59 |         chunkheader = in.get();
+      |                     ~ ~~~^~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(102,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  102 |     constexpr std::uint8_t developer_area_ref[4] = {0, 0, 0, 0};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(103,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  103 |     constexpr std::uint8_t extension_area_ref[4] = {0, 0, 0, 0};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(104,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  104 |     constexpr std::uint8_t footer[18] = {'T','R','U','E','V','I','S','I','O','N','-','X','F','I','L','E','.','\0'};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(112,30): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+  112 |     header.bitsperpixel = bpp<<3;
+      |                         ~ ~~~^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(113,21): warning: implicit conversion loses integer precision: 'const int' to 'std::uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  113 |     header.width  = w;
+      |                   ~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(114,21): warning: implicit conversion loses integer precision: 'const int' to 'std::uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  114 |     header.height = h;
+      |                   ~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(137,23): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  137 |     size_t npixels = w*h;
+      |            ~~~~~~~   ~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(147,41): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  147 |                 succ_eq = (data[curbyte+t]==data[curbyte+t+bpp]);
+      |                                        ~^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(147,58): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  147 |                 succ_eq = (data[curbyte+t]==data[curbyte+t+bpp]);
+      |                                                         ~^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(169,60): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+  169 |     if (!data.size() || x<0 || y<0 || x>=w || y>=h) return {};
+      |                                                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(170,21): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+  170 |     TGAColor ret = {0, 0, 0, 0, bpp};
+      |                     ^~~~~~~~~~
+      |                     {         }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(185,68): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  185 |                 std::swap(data[(i+j*w)*bpp+b], data[(w-1-i+j*w)*bpp+b]);
+      |                                                ~~~~ ~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(185,43): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  185 |                 std::swap(data[(i+j*w)*bpp+b], data[(w-1-i+j*w)*bpp+b]);
+      |                           ~~~~ ~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(192,70): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  192 |                 std::swap(data[(i+j*w)*bpp+b], data[(i+(h-1-j)*w)*bpp+b]);
+      |                                                ~~~~ ~~~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(192,43): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  192 |                 std::swap(data[(i+j*w)*bpp+b], data[(i+(h-1-j)*w)*bpp+b]);
+      |                           ~~~~ ~~~~~~~~~~~^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(26,52): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   26 |     std::uint8_t& operator[](const int i) { return bgra[i]; }
+      |                                                    ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.h(26,52): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(73,43): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   73 |                     data[currentbyte++] = colorbuffer.bgra[t];
+      |                                           ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(73,43): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(89,43): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   89 |                     data[currentbyte++] = colorbuffer.bgra[t];
+      |                                           ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(89,43): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(162,55): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  162 |         out.write(reinterpret_cast<const char *>(data.data()+chunkstart), (raw?run_length*bpp:bpp));
+      |                                                  ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(162,55): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(171,34): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  171 |     const std::uint8_t *p = data.data()+(x+y*w)*bpp;
+      |                             ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(171,34): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(172,26): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  172 |     for (int i=bpp; i--; ret.bgra[i] = p[i]);
+      |                          ^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(172,26): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(172,40): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  172 |     for (int i=bpp; i--; ret.bgra[i] = p[i]);
+      |                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(172,40): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(178,5): warning: function 'memcpy' is unsafe [-Wunsafe-buffer-usage-in-libc-call]
+  178 |     memcpy(data.data()+(x+y*w)*bpp, c.bgra, bpp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(178,17): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  178 |     memcpy(data.data()+(x+y*w)*bpp, c.bgra, bpp);
+      |            ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\dbd11a9-bresenham-4c-timing\tgaimage.cpp(178,17): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+55 warnings generated.
+ninja: build stopped: subcommand failed.

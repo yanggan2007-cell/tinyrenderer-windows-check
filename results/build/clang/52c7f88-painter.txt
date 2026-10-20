@@ -1,0 +1,509 @@
+-- The CXX compiler identification is Clang 22.1.3 with MSVC-like command-line
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/Llvm/x64/bin/clang-cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -Xclang -fopenmp (found version "5.1")
+-- Found OpenMP: TRUE (found version "5.1") found components: CXX
+-- Configuring done (2.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/work-clang/52c7f88-painter/out/build/x64-release
+[1/4] Building CXX object CMakeFiles\tinyrenderer.dir\main.cpp.obj
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(7,20): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    7 |     double data[n] = {0};
+      |                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(18,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     double x = 0, y = 0, z = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(18,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     double x = 0, y = 0, z = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(18,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     double x = 0, y = 0, z = 0;
+      |                            ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp:4:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(5,29): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec3> verts = {};    // array of vertices
+      |                             ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(6,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<int> facet_vrt = {}; // per-triangle index in the above array
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(5,31): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec3> verts = {};    // array of vertices
+      |                               ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(6,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<int> facet_vrt = {}; // per-triangle index in the above array
+      |                                  ^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp:5:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(31,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   31 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(44,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(44,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(45,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(46,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(46,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(7,1): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+    7 | constexpr int width  = 800;
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(8,1): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+    8 | constexpr int height = 800;
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(10,1): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   10 | constexpr TGAColor white   = {255, 255, 255, 255}; // attention, BGRA order
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(10,31): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   10 | constexpr TGAColor white   = {255, 255, 255, 255}; // attention, BGRA order
+      |                               ^~~~~~~~~~~~~~~~~~
+      |                               {                 }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(11,1): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   11 | constexpr TGAColor green   = {  0, 255,   0, 255};
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(11,33): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   11 | constexpr TGAColor green   = {  0, 255,   0, 255};
+      |                                 ^~~~~~~~~~~~~~~~
+      |                                 {               }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(12,1): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   12 | constexpr TGAColor red     = {  0,   0, 255, 255};
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(12,33): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   12 | constexpr TGAColor red     = {  0,   0, 255, 255};
+      |                                 ^~~~~~~~~~~~~~~~
+      |                                 {               }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(13,1): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   13 | constexpr TGAColor blue    = {255, 128,  64, 255};
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(13,31): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   13 | constexpr TGAColor blue    = {255, 128,  64, 255};
+      |                               ^~~~~~~~~~~~~~~~~~
+      |                               {                 }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(14,1): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   14 | constexpr TGAColor yellow  = {  0, 200, 255, 255};
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(14,33): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   14 | constexpr TGAColor yellow  = {  0, 200, 255, 255};
+      |                                 ^~~~~~~~~~~~~~~~
+      |                                 {               }
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp:5:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(46,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(16,6): warning: no previous prototype for function 'line' [-Wmissing-prototypes]
+   16 | void line(int ax, int ay, int bx, int by, TGAImage &framebuffer, TGAColor color) {
+      |      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(16,1): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   16 | void line(int ax, int ay, int bx, int by, TGAImage &framebuffer, TGAColor color) {
+      | ^
+      | static 
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(41,8): warning: no previous prototype for function 'signed_triangle_area' [-Wmissing-prototypes]
+   41 | double signed_triangle_area(int ax, int ay, int bx, int by, int cx, int cy) {
+      |        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(41,1): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   41 | double signed_triangle_area(int ax, int ay, int bx, int by, int cx, int cy) {
+      | ^
+      | static 
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(45,6): warning: no previous prototype for function 'triangle' [-Wmissing-prototypes]
+   45 | void triangle(int ax, int ay, int bx, int by, int cx, int cy, TGAImage &framebuffer, TGAColor color) {
+      |      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(45,1): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   45 | void triangle(int ax, int ay, int bx, int by, int cx, int cy, TGAImage &framebuffer, TGAColor color) {
+      | ^
+      | static 
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(66,12): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   66 |     return { (v.x + 1.) *  width/2,   // Second, since the input models are scaled to have fit in the [-1,1]^3 world coordinates,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   67 |              (v.y + 1.) * height/2 }; // we want to shift the vector (x,y) and then scale it to span the entire screen.
+      |              ~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(66,12): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   66 |     return { (v.x + 1.) *  width/2,   // Second, since the input models are scaled to have fit in the [-1,1]^3 world coordinates,
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   67 |              (v.y + 1.) * height/2 }; // we want to shift the vector (x,y) and then scale it to span the entire screen.
+      |              ~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(65,21): warning: no previous prototype for function 'project' [-Wmissing-prototypes]
+   65 | std::tuple<int,int> project(vec3 v) { // First of all, (x,y) is an orthogonal projection of the vector (x,y,z).
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(65,1): note: declare 'static' if the function is not intended to be used outside of this translation unit
+   65 | std::tuple<int,int> project(vec3 v) { // First of all, (x,y) is an orthogonal projection of the vector (x,y,z).
+      | ^
+      | static 
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(80,14): warning: structured binding declarations are incompatible with C++ standards before C++17 [-Wpre-c++17-compat]
+   80 |         auto [ax, ay] = project(model.vert(i, 0));
+      |              ^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(80,9): warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+   80 |         auto [ax, ay] = project(model.vert(i, 0));
+      |         ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(81,14): warning: structured binding declarations are incompatible with C++ standards before C++17 [-Wpre-c++17-compat]
+   81 |         auto [bx, by] = project(model.vert(i, 1));
+      |              ^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(81,9): warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+   81 |         auto [bx, by] = project(model.vert(i, 1));
+      |         ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(82,14): warning: structured binding declarations are incompatible with C++ standards before C++17 [-Wpre-c++17-compat]
+   82 |         auto [cx, cy] = project(model.vert(i, 2));
+      |              ^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(82,9): warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+   82 |         auto [cx, cy] = project(model.vert(i, 2));
+      |         ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(84,53): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   84 |         for (int c=0; c<3; c++) rnd[c] = std::rand()%255;
+      |                                        ~ ~~~~~~~~~~~^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(10,20): warning: unused variable 'white' [-Wunused-const-variable]
+   10 | constexpr TGAColor white   = {255, 255, 255, 255}; // attention, BGRA order
+      |                    ^~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(11,20): warning: unused variable 'green' [-Wunused-const-variable]
+   11 | constexpr TGAColor green   = {  0, 255,   0, 255};
+      |                    ^~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(12,20): warning: unused variable 'red' [-Wunused-const-variable]
+   12 | constexpr TGAColor red     = {  0,   0, 255, 255};
+      |                    ^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(13,20): warning: unused variable 'blue' [-Wunused-const-variable]
+   13 | constexpr TGAColor blue    = {255, 128,  64, 255};
+      |                    ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(14,20): warning: unused variable 'yellow' [-Wunused-const-variable]
+   14 | constexpr TGAColor yellow  = {  0, 200, 255, 255};
+      |                    ^~~~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp:5:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(26,52): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   26 |     std::uint8_t& operator[](const int i) { return bgra[i]; }
+      |                                                    ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(26,52): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(76,17): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   76 |     Model model(argv[1]);
+      |                 ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\main.cpp(76,17): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+61 warnings generated.
+[2/4] Building CXX object CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(31,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   31 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(44,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(44,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   44 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(45,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(46,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(46,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(5,79): warning: implicit conversion loses integer precision: 'const int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                                                              ~^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(5,93): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                                                                     ~~~~ ~~~^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(5,30): warning: constructor parameter 'w' shadows the field 'w' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(44,9): note: previous declaration is here
+   44 |     int w = 0, h = 0;
+      |         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(5,43): warning: constructor parameter 'h' shadows the field 'h' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(44,16): note: previous declaration is here
+   44 |     int w = 0, h = 0;
+      |                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(5,56): warning: constructor parameter 'bpp' shadows the field 'bpp' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {}
+      |                                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(45,18): note: previous declaration is here
+   45 |     std::uint8_t bpp = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(27,26): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+   27 |     size_t nbytes = bpp*w*h;
+      |            ~~~~~~   ~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(30,56): warning: implicit conversion changes signedness: 'size_t' (aka 'unsigned long long') to 'streamsize' (aka 'long long') [-Wsign-conversion]
+   30 |         in.read(reinterpret_cast<char *>(data.data()), nbytes);
+      |            ~~~~                                        ^~~~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(46,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   46 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(41,48): warning: use of old-style cast [-Wold-style-cast]
+   41 |         std::cerr << "unknown file format " << (int)header.datatypecode << "\n";
+      |                                                ^    ~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(53,26): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+   53 |     size_t pixelcount = w*h;
+      |            ~~~~~~~~~~   ~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(59,26): warning: implicit conversion loses integer precision: 'int_type' (aka 'int') to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   59 |         chunkheader = in.get();
+      |                     ~ ~~~^~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(102,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  102 |     constexpr std::uint8_t developer_area_ref[4] = {0, 0, 0, 0};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(103,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  103 |     constexpr std::uint8_t extension_area_ref[4] = {0, 0, 0, 0};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(104,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  104 |     constexpr std::uint8_t footer[18] = {'T','R','U','E','V','I','S','I','O','N','-','X','F','I','L','E','.','\0'};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(112,30): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+  112 |     header.bitsperpixel = bpp<<3;
+      |                         ~ ~~~^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(113,21): warning: implicit conversion loses integer precision: 'const int' to 'std::uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  113 |     header.width  = w;
+      |                   ~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(114,21): warning: implicit conversion loses integer precision: 'const int' to 'std::uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  114 |     header.height = h;
+      |                   ~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(137,23): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  137 |     size_t npixels = w*h;
+      |            ~~~~~~~   ~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(147,41): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  147 |                 succ_eq = (data[curbyte+t]==data[curbyte+t+bpp]);
+      |                                        ~^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(147,58): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  147 |                 succ_eq = (data[curbyte+t]==data[curbyte+t+bpp]);
+      |                                                         ~^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(169,60): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+  169 |     if (!data.size() || x<0 || y<0 || x>=w || y>=h) return {};
+      |                                                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(170,21): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+  170 |     TGAColor ret = {0, 0, 0, 0, bpp};
+      |                     ^~~~~~~~~~
+      |                     {         }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(185,68): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  185 |                 std::swap(data[(i+j*w)*bpp+b], data[(w-1-i+j*w)*bpp+b]);
+      |                                                ~~~~ ~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(185,43): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  185 |                 std::swap(data[(i+j*w)*bpp+b], data[(w-1-i+j*w)*bpp+b]);
+      |                           ~~~~ ~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(192,70): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  192 |                 std::swap(data[(i+j*w)*bpp+b], data[(i+(h-1-j)*w)*bpp+b]);
+      |                                                ~~~~ ~~~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(192,43): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  192 |                 std::swap(data[(i+j*w)*bpp+b], data[(i+(h-1-j)*w)*bpp+b]);
+      |                           ~~~~ ~~~~~~~~~~~^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(26,52): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   26 |     std::uint8_t& operator[](const int i) { return bgra[i]; }
+      |                                                    ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.h(26,52): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(73,43): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   73 |                     data[currentbyte++] = colorbuffer.bgra[t];
+      |                                           ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(73,43): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(89,43): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   89 |                     data[currentbyte++] = colorbuffer.bgra[t];
+      |                                           ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(89,43): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(162,55): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  162 |         out.write(reinterpret_cast<const char *>(data.data()+chunkstart), (raw?run_length*bpp:bpp));
+      |                                                  ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(162,55): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(171,34): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  171 |     const std::uint8_t *p = data.data()+(x+y*w)*bpp;
+      |                             ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(171,34): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(172,26): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  172 |     for (int i=bpp; i--; ret.bgra[i] = p[i]);
+      |                          ^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(172,26): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(172,40): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  172 |     for (int i=bpp; i--; ret.bgra[i] = p[i]);
+      |                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(172,40): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(178,5): warning: function 'memcpy' is unsafe [-Wunsafe-buffer-usage-in-libc-call]
+  178 |     memcpy(data.data()+(x+y*w)*bpp, c.bgra, bpp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(178,17): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  178 |     memcpy(data.data()+(x+y*w)*bpp, c.bgra, bpp);
+      |            ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\tgaimage.cpp(178,17): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+55 warnings generated.
+[3/4] Building CXX object CMakeFiles\tinyrenderer.dir\model.cpp.obj
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp:3:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(7,20): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    7 |     double data[n] = {0};
+      |                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(18,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     double x = 0, y = 0, z = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(18,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     double x = 0, y = 0, z = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\geometry.h(18,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     double x = 0, y = 0, z = 0;
+      |                            ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(5,29): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec3> verts = {};    // array of vertices
+      |                             ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(6,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<int> facet_vrt = {}; // per-triangle index in the above array
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(5,31): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec3> verts = {};    // array of vertices
+      |                               ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.h(6,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<int> facet_vrt = {}; // per-triangle index in the above array
+      |                                  ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(18,24): warning: range-based for loop is incompatible with C++98 [-Wc++98-compat]
+   18 |             for (int i : {0,1,2}) iss >> v[i];
+      |                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(18,26): warning: reference initialized from initializer list is incompatible with C++98 [-Wc++98-compat]
+   18 |             for (int i : {0,1,2}) iss >> v[i];
+      |                          ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(18,26): warning: initialization of initializer_list object is incompatible with C++98 [-Wc++98-compat]
+   18 |             for (int i : {0,1,2}) iss >> v[i];
+      |                          ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(35,26): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   35 |     std::vector<int> idx(nfaces());    // permutation, a map from new to old facet indices
+      |                      ~~~ ^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(37,13): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   37 |         idx[i] = i;
+      |         ~~~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(40,15): warning: lambda expressions are incompatible with C++98 [-Wc++98-compat]
+   40 |               [&](const int& a, const int& b) { // given two triangles, compare their min z coordinate
+      |               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(41,33): warning: implicit conversion loses floating-point precision: 'const double' to 'float' [-Wimplicit-float-conversion]
+   41 |                   float aminz = std::min(vert(a, 0).z,
+      |                         ~~~~~   ^~~~~~~~~~~~~~~~~~~~~~
+   42 |                                          std::min(vert(a, 1).z,
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~
+   43 |                                                   vert(a, 2).z));
+      |                                                   ~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(44,33): warning: implicit conversion loses floating-point precision: 'const double' to 'float' [-Wimplicit-float-conversion]
+   44 |                   float bminz = std::min(vert(b, 0).z,
+      |                         ~~~~~   ^~~~~~~~~~~~~~~~~~~~~~
+   45 |                                          std::min(vert(b, 1).z,
+      |                                          ~~~~~~~~~~~~~~~~~~~~~~
+   46 |                                                   vert(b, 2).z));
+      |                                                   ~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(39,5): warning: local type '(lambda at D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp:40:15)' as template argument is incompatible with C++98 [-Wc++98-compat-local-type-template-args]
+   39 |     std::sort(idx.begin(), idx.end(),
+      |     ^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(39,5): note: while substituting deduced template arguments into function template 'sort' [with _RanIt = iterator, _Pr = (lambda at D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp:40:15)]
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(50,41): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   50 |     std::vector<int> facet_vrt2(nfaces()*3); // allocate an array to store permutated facets
+      |                      ~~~~~~~~~~ ~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(53,27): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   53 |             facet_vrt2[i*3+j] = facet_vrt[idx[i]*3+j];
+      |             ~~~~~~~~~~ ~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(53,51): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   53 |             facet_vrt2[i*3+j] = facet_vrt[idx[i]*3+j];
+      |                                 ~~~~~~~~~ ~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(53,47): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   53 |             facet_vrt2[i*3+j] = facet_vrt[idx[i]*3+j];
+      |                                           ~~~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(58,42): warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+   58 | int Model::nverts() const { return verts.size(); }
+      |                             ~~~~~~ ~~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(59,52): warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+   59 | int Model::nfaces() const { return facet_vrt.size()/3; }
+      |                             ~~~~~~ ~~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(62,18): warning: implicit conversion changes signedness: 'const int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   62 |     return verts[i];
+      |            ~~~~~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(66,18): warning: implicit conversion changes signedness: 'const int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   66 |     return verts[facet_vrt[iface*3+nthvert]];
+      |            ~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang\52c7f88-painter\model.cpp(66,35): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   66 |     return verts[facet_vrt[iface*3+nthvert]];
+      |                  ~~~~~~~~~ ~~~~~~~^~~~~~~~
+26 warnings generated.
+[4/4] Linking CXX executable tinyrenderer.exe
