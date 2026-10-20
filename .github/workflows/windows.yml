@@ -12,7 +12,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        part: [authors-extra]
+        part: [ao-small, ao-full, probe]
     steps:
       - uses: actions/checkout@v4
       - name: Python packages
