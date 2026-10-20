@@ -1,0 +1,24 @@
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio\Visual Studio Tools\Developer Command Prompt for VS.lnk
+  target: C:\Windows\System32\cmd.exe
+  args:   /k "C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\VsDevCmd.bat"
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio\Visual Studio Tools\Developer PowerShell for VS.lnk
+  target: C:\Windows\SysWOW64\WindowsPowerShell\v1.0\powershell.exe
+  args:   -noe -c "&{Import-Module """C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\Tools\Microsoft.VisualStudio.DevShell.dll"""; Enter-VsDevShell d2e552a4}"
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2026\Visual Studio Tools\VC\x64 Native Tools Command Prompt for VS.lnk
+  target: C:\Windows\System32\cmd.exe
+  args:   /k "C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\Build\vcvars64.bat"
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2026\Visual Studio Tools\VC\x64_x86 Cross Tools Command Prompt for VS.lnk
+  target: C:\Windows\System32\cmd.exe
+  args:   /k "C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\Build\vcvarsamd64_x86.bat"
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2026\Visual Studio Tools\VC\x86 Native Tools Command Prompt for VS.lnk
+  target: C:\Windows\System32\cmd.exe
+  args:   /k "C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\Build\vcvars32.bat"
+
+C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Visual Studio 2026\Visual Studio Tools\VC\x86_x64 Cross Tools Command Prompt for VS.lnk
+  target: C:\Windows\System32\cmd.exe
+  args:   /k "C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Auxiliary\Build\vcvarsx86_amd64.bat"
+

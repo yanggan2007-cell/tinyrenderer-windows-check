@@ -1,0 +1,1 @@
+C:\Program Files\Microsoft Visual Studio\18\Enterprise\Common7\IDE\CommonExtensions\Microsoft\Terminal\UnifiedSettings\terminal.registration.json:26: "default": "-NoExit -Command \"& { Import-Module \"\"\"$env:VSAPPIDDIR\\..\\Tools\\Microsoft.VisualStudio.DevShell.dll\"\"\"; Enter-VsDevShell -SkipAutomaticLocation -SetDefaultWindowTitle -InstallPath $env:VSAPPIDDIR\\..\\..\\}\""

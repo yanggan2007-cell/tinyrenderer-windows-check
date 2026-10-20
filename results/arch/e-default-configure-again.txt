@@ -1,0 +1,22 @@
+mode: default
+VSCMD_ARG_TGT_ARCH=x86  VSCMD_ARG_HOST_ARCH=x86
+cl banner: Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x86
+cl path: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX86\x86\cl.exe
+cmake path: C:\Strawberry\c\bin\cmake.exe
+cwd: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\archproj1
+--- cmake --preset x64-release ---
+-- Detecting CXX compile features - done
+-- Found OpenMP_CXX: -openmp (found version "2.0")
+-- Found OpenMP: TRUE (found version "2.0") found components: CXX
+-- Configuring done (5.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/archproj1/out/build/x64-release
+rc=0
+--- cmake --build out/build/x64-release ---
+[1/3] Building CXX object CMakeFiles\tinyrenderer.dir\main.cpp.obj
+[2/3] Building CXX object CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
+[3/3] Linking CXX executable tinyrenderer.exe
+rc=0
+machine:              14C machine (x86) |                    32 bit word machine
+CMAKE_CXX_COMPILER in cache: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\archproj1\out\build\x64-release\CMakeCache.txt:24:CMAKE_CXX_COMPILER:STRING=C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/MSVC/14.51.36231/bin/Hostx86/x86/cl.exe
+run rc=0  framebuffer.tga exists: True

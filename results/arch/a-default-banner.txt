@@ -1,0 +1,6 @@
+mode: default
+VSCMD_ARG_TGT_ARCH=x86  VSCMD_ARG_HOST_ARCH=x86
+cl banner: Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36260 for x86
+cl path: C:\Program Files\Microsoft Visual Studio\18\Enterprise\VC\Tools\MSVC\14.51.36231\bin\HostX86\x86\cl.exe
+cmake path: C:\Strawberry\c\bin\cmake.exe
+cwd: D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\archproj1
