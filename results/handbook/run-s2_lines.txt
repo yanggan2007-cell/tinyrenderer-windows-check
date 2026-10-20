@@ -1,0 +1,8 @@
+exit: 0
+seconds: 1.4540205
+peak_working_set_MiB: 4.5
+--- stdout ---
+float-vs-int mismatched pixels: 5916
+
+--- stderr ---
+

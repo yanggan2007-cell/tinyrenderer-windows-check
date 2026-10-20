@@ -1,0 +1,29 @@
+git version: git version 2.56.0.windows.2
+system core.autocrlf: true
+--- git add .
+--- git commit without user.name / user.email
+git : Author identity unknown
+At D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\gittest\test.ps1:19 char:1
++ git commit -q -m "Stage 0: starting point from tinyrenderer 706b2df"  ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Author identity unknown:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+*** Please tell me who you are.
+Run
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+fatal: unable to auto-detect email address (got 'runneradmin@runnervmuzpk7.(none)')
+exit: 128
+--- after git config --global user.name / user.email
+exit: 0
+8eaa0ba Stage 0: starting point from tinyrenderer 706b2df
+--- .gitignore for Visual Studio + output images
+ M .gitignore
+--- one file from another commit: cmd /c redirect keeps the bytes
+geometry.h first bytes: 23-70-72-61-67-6D
+same as in the repository: True
+--- counting lines of code
+273

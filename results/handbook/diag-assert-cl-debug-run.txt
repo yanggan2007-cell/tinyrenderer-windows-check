@@ -1,0 +1,9 @@
+exit: TIMEOUT
+seconds: 20.0496636
+peak_working_set_MiB: 11.4
+--- stdout ---
+checking index 3
+
+--- stderr ---
+Assertion failed: i >= 0 && i < 3, file D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\assert_fail.cpp, line 8
+

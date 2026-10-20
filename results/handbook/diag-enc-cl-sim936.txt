@@ -1,0 +1,25 @@
+encoding_cn.cpp
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\u6924' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\u5241' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\u5063' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\u93C1' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\u6D93' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\uE045' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\u773D' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): warning C4566: character represented by universal-character-name '\u701B' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(4): error C2001: newline in string literal
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): error C2143: syntax error: missing ';' before 'const'
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u7487' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u8BF2' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u5F47' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u6FB6' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u8FAB' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u89E6' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u6D5C' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u6D93' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\uE045' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u773D' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): warning C4566: character represented by universal-character-name '\u701B' cannot be represented in the current code page (1252)
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(5): error C2001: newline in string literal
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\handbook\diag\encoding_cn.cpp(6): error C2143: syntax error: missing ';' before 'std::printf'

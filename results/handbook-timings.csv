@@ -1,0 +1,25 @@
+"what","run","exit","sec","peak_mb"
+"shadow map 1024","1","0","0.507","29.7"
+"shadow map 2048","1","0","0.588","56.2"
+"shadow map 4096","1","0","0.906","164.9"
+"shadow map 8000","1","0","2.035","570"
+"shadow map 1024","2","0","0.506","29.2"
+"shadow map 2048","2","0","0.591","56.2"
+"shadow map 4096","2","0","0.894","164.2"
+"shadow map 8000","2","0","2.05","569.7"
+"shadow map 1024","3","0","0.499","29.2"
+"shadow map 2048","3","0","0.576","56.2"
+"shadow map 4096","3","0","0.888","164.2"
+"shadow map 8000","3","0","2.026","569.5"
+"ray tracer brute force","1","0","29.045",
+"ray tracer BVH","1","0","0.271",
+"ray tracer BVH","2","0","0.272",
+"ray tracer BVH","3","0","0.277",
+"ray tracer BVH, naive split (triangle bounds)","1","0","27.837",
+"handbook final renderer Release","1","0","0.271",
+"handbook final renderer Release","2","0","0.268",
+"handbook final renderer Release","3","0","0.274",
+"handbook final renderer Debug","1","0","3.667",
+"handbook final renderer Debug","2","0","1.488",
+"handbook final renderer Release clang-cl","1","0","0.205",
+"handbook final renderer Release clang-cl","2","0","0.2",

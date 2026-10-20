@@ -1,0 +1,10 @@
+exit: 0
+seconds: 0.0575027
+peak_working_set_MiB: 6.4
+--- stdout ---
+
+--- stderr ---
+# v# 2519 f# 5022
+main.cpp:30:58: runtime error: 257 is outside the range of representable values of type 'unsigned char'
+SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior main.cpp:30:58 
+
