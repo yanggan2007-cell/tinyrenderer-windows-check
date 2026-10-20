@@ -1,0 +1,1109 @@
+-- The CXX compiler identification is Clang 22.1.3 with MSVC-like command-line
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/Microsoft Visual Studio/18/Enterprise/VC/Tools/Llvm/x64/bin/clang-cl.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (5.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/a/tinyrenderer-windows-check/tinyrenderer-windows-check/work-clang-noomp-extra/dfb973c-shadowmap-first/out/build/x64-release
+[1/5] Building CXX object CMakeFiles\tinyrenderer.dir\main.cpp.obj
+FAILED: [code=1] CMakeFiles/tinyrenderer.dir/main.cpp.obj 
+C:\PROGRA~1\MICROS~2\18\ENTERP~1\VC\Tools\Llvm\x64\bin\clang-cl.exe  /nologo -TP   /DWIN32 /D_WINDOWS /EHsc /O2 /Ob2 /DNDEBUG -std:c++20 -MD -Wall -clang:-MD -clang:-MTCMakeFiles\tinyrenderer.dir\main.cpp.obj -clang:-MFCMakeFiles\tinyrenderer.dir\main.cpp.obj.d /FoCMakeFiles\tinyrenderer.dir\main.cpp.obj /FdCMakeFiles\tinyrenderer.dir\ -c -- D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp:1:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(32,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   32 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(46,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(33,68): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   33 |     TGAImage(const int w, const int h, const int bpp, TGAColor c = {});
+      |                                                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp:1:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(7,20): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    7 |     double data[n] = {0};
+      |                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(52,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   52 |     double x = 0, y = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(52,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   52 |     double x = 0, y = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(67,33): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   67 |     vec<2> xy()  const { return {x, y};    }
+      |                                 ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(68,33): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   68 |     vec<3> xyz() const { return {x, y, z}; }
+      |                                 ^~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(84,12): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   84 |     return {v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x};
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(90,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   90 |     vec<ncols> rows[nrows] = {{}};
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(126,25): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+  126 |     return (mat<1,nrows>{{lhs}}*rhs)[0];
+      |                         ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(9,8): warning: 'IShader' has virtual functions but non-virtual destructor [-Wnon-virtual-dtor]
+    9 | struct IShader {
+      |        ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp:1:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(11,53): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+   11 |         return img.get(uvf[0] * img.width(), uvf[1] * img.height());
+      |                    ~~~                       ~~~~~~~^~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(11,31): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+   11 |         return img.get(uvf[0] * img.width(), uvf[1] * img.height());
+      |                    ~~~ ~~~~~~~^~~~~~~~~~~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(5,29): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec4> verts = {};    // array of vertices        ┐ generally speaking, these arrays
+      |                             ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(6,29): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<vec4> norms = {};    // array of normal vectors  │ do not have the same size
+      |                             ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(7,27): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    7 |     std::vector<vec2> tex = {};      // array of tex coords      ┘ check the logs of the Model() constructor
+      |                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(8,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::vector<int> facet_vrt = {}; //  ┐ per-triangle indices in the above arrays,
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::vector<int> facet_nrm = {}; //  │ the size is supposed to be
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::vector<int> facet_tex = {}; //  ┘ nfaces()*3
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(11,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     TGAImage diffusemap  = {};       // diffuse color texture
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(12,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     TGAImage normalmap   = {};       // normal map texture
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(13,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     TGAImage specularmap = {};       // specular texture
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(5,31): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec4> verts = {};    // array of vertices        ┐ generally speaking, these arrays
+      |                               ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(6,31): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<vec4> norms = {};    // array of normal vectors  │ do not have the same size
+      |                               ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(7,29): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    7 |     std::vector<vec2> tex = {};      // array of tex coords      ┘ check the logs of the Model() constructor
+      |                             ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(8,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::vector<int> facet_vrt = {}; //  ┐ per-triangle indices in the above arrays,
+      |                                  ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(9,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::vector<int> facet_nrm = {}; //  │ the size is supposed to be
+      |                                  ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(10,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::vector<int> facet_tex = {}; //  ┘ nfaces()*3
+      |                                  ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(11,28): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   11 |     TGAImage diffusemap  = {};       // diffuse color texture
+      |                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(12,28): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   12 |     TGAImage normalmap   = {};       // normal map texture
+      |                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(13,28): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   13 |     TGAImage specularmap = {};       // specular texture
+      |                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(7,8): warning: 'EmptyShader' has virtual functions but non-virtual destructor [-Wnon-virtual-dtor]
+    7 | struct EmptyShader : IShader {
+      |        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(17,38): warning: 'fragment' overrides a member function but is not marked 'override' [-Wsuggest-override]
+   17 |     virtual std::pair<bool,TGAColor> fragment(const vec3 bar) const {
+      |                                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(13,38): note: overridden virtual function is here
+   13 |     virtual std::pair<bool,TGAColor> fragment(const vec3 bar) const = 0;
+      |                                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(9,8): warning: padding size of 'IShader' with 8 bytes to alignment boundary [-Wpadded]
+    9 | struct IShader {
+      |        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(18,34): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   18 |         TGAColor gl_FragColor = {255, 255, 255, 255};
+      |                                  ^~~~~~~~~~~~~~~~~~
+      |                                  {                 }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(19,16): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   19 |         return {false, gl_FragColor};
+      |                ^~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(19,16): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   19 |         return {false, gl_FragColor};
+      |                ^~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(17,58): warning: unused parameter 'bar' [-Wunused-parameter]
+   17 |     virtual std::pair<bool,TGAColor> fragment(const vec3 bar) const {
+      |                                                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(29,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   29 |     constexpr int width  = 800;      // output image size
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(30,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   30 |     constexpr int height = 800;
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(31,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   31 |     constexpr int shadoww = 8000;    // shadow map buffer size
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(32,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   32 |     constexpr int shadowh = 8000;
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(33,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   33 |     constexpr vec3  light{ 1, 1, 1}; // light source
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(33,26): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   33 |     constexpr vec3  light{ 1, 1, 1}; // light source
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(34,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   34 |     constexpr vec3    eye{-1, 0, 2}; // camera position
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(34,26): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   34 |     constexpr vec3    eye{-1, 0, 2}; // camera position
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(35,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   35 |     constexpr vec3 center{ 0, 0, 0}; // camera direction
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(35,26): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   35 |     constexpr vec3 center{ 0, 0, 0}; // camera direction
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(36,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+   36 |     constexpr vec3     up{ 0, 1, 0}; // camera up vector
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(36,26): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   36 |     constexpr vec3     up{ 0, 1, 0}; // camera up vector
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(45,63): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   45 |         TGAImage framebuffer(shadoww, shadowh, TGAImage::RGB, {177, 195, 209, 255});
+      |                                                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(45,64): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   45 |         TGAImage framebuffer(shadoww, shadowh, TGAImage::RGB, {177, 195, 209, 255});
+      |                                                                ^~~~~~~~~~~~~~~~~~
+      |                                                                {                 }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(49,31): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   49 |             EmptyShader shader{model};
+      |                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(49,31): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   49 |             EmptyShader shader{model};
+      |                               ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(67,56): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   67 |     TGAImage framebuffer(width, height, TGAImage::RGB, {177, 195, 209, 255});
+      |                                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(67,57): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   67 |     TGAImage framebuffer(width, height, TGAImage::RGB, {177, 195, 209, 255});
+      |                                                         ^~~~~~~~~~~~~~~~~~
+      |                                                         {                 }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(71,27): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   71 |         EmptyShader shader{model};
+      |                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(71,27): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   71 |         EmptyShader shader{model};
+      |                           ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(82,9): warning: unexpected '#pragma omp ...' in program [-Wsource-uses-openmp]
+   82 | #pragma omp parallel for
+      |         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(85,81): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   85 |             vec4 fragment = (Viewport * Perspective * ModelView).invert() * vec4{x, y, zbuffer[x+y*width], 1.};
+      |                                                                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(85,82): error: non-constant-expression cannot be narrowed from type 'int' to 'double' in initializer list [-Wc++11-narrowing]
+   85 |             vec4 fragment = (Viewport * Perspective * ModelView).invert() * vec4{x, y, zbuffer[x+y*width], 1.};
+      |                                                                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(85,82): note: insert an explicit cast to silence this issue
+   85 |             vec4 fragment = (Viewport * Perspective * ModelView).invert() * vec4{x, y, zbuffer[x+y*width], 1.};
+      |                                                                                  ^
+      |                                                                                  static_cast<double>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(85,85): error: non-constant-expression cannot be narrowed from type 'int' to 'double' in initializer list [-Wc++11-narrowing]
+   85 |             vec4 fragment = (Viewport * Perspective * ModelView).invert() * vec4{x, y, zbuffer[x+y*width], 1.};
+      |                                                                                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(85,85): note: insert an explicit cast to silence this issue
+   85 |             vec4 fragment = (Viewport * Perspective * ModelView).invert() * vec4{x, y, zbuffer[x+y*width], 1.};
+      |                                                                                     ^
+      |                                                                                     static_cast<double>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(85,97): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   85 |             vec4 fragment = (Viewport * Perspective * ModelView).invert() * vec4{x, y, zbuffer[x+y*width], 1.};
+      |                                                                                        ~~~~~~~ ~^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(89,40): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   89 |             if (p.z < zshadow[int(p.x) + int(p.y)*shadoww] - .03) { // small bias to avoid z-fighting
+      |                       ~~~~~~~ ~~~~~~~~~^~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,39): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                       ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,41): error: non-constant-expression cannot be narrowed from type 'int' to 'std::uint8_t' (aka 'unsigned char') in initializer list [-Wc++11-narrowing]
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                         ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,41): note: insert an explicit cast to silence this issue
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                         ^~~~~~
+      |                                         static_cast<uint8_t>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,49): error: non-constant-expression cannot be narrowed from type 'int' to 'std::uint8_t' (aka 'unsigned char') in initializer list [-Wc++11-narrowing]
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                                 ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,49): note: insert an explicit cast to silence this issue
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                                 ^~~~~~
+      |                                                 static_cast<uint8_t>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,57): error: non-constant-expression cannot be narrowed from type 'int' to 'std::uint8_t' (aka 'unsigned char') in initializer list [-Wc++11-narrowing]
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                                         ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,57): note: insert an explicit cast to silence this issue
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                                         ^~~~~~
+      |                                                         static_cast<uint8_t>( )
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\main.cpp(91,41): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+   91 |                 framebuffer.set(x, y, { c[0]/2, c[1]/2, c[2]/2, c[3] });
+      |                                         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      |                                         {                           }
+91 warnings and 5 errors generated.
+[2/5] Building CXX object CMakeFiles\tinyrenderer.dir\our_gl.cpp.obj
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(32,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   32 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(46,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(33,68): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   33 |     TGAImage(const int w, const int h, const int bpp, TGAColor c = {});
+      |                                                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(7,20): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    7 |     double data[n] = {0};
+      |                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(52,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   52 |     double x = 0, y = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(52,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   52 |     double x = 0, y = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(67,33): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   67 |     vec<2> xy()  const { return {x, y};    }
+      |                                 ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(68,33): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   68 |     vec<3> xyz() const { return {x, y, z}; }
+      |                                 ^~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(84,12): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   84 |     return {v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x};
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(90,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   90 |     vec<ncols> rows[nrows] = {{}};
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(126,25): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+  126 |     return (mat<1,nrows>{{lhs}}*rhs)[0];
+      |                         ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(9,8): warning: 'IShader' has virtual functions but non-virtual destructor [-Wnon-virtual-dtor]
+    9 | struct IShader {
+      |        ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(11,53): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+   11 |         return img.get(uvf[0] * img.width(), uvf[1] * img.height());
+      |                    ~~~                       ~~~~~~~^~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(11,31): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+   11 |         return img.get(uvf[0] * img.width(), uvf[1] * img.height());
+      |                    ~~~ ~~~~~~~^~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(4,10): warning: no previous extern declaration for non-static variable 'ModelView' [-Wmissing-variable-declarations]
+    4 | mat<4,4> ModelView, Viewport, Perspective; // "OpenGL" state matrices
+      |          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(4,1): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    4 | mat<4,4> ModelView, Viewport, Perspective; // "OpenGL" state matrices
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(4,21): warning: no previous extern declaration for non-static variable 'Viewport' [-Wmissing-variable-declarations]
+    4 | mat<4,4> ModelView, Viewport, Perspective; // "OpenGL" state matrices
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(4,1): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    4 | mat<4,4> ModelView, Viewport, Perspective; // "OpenGL" state matrices
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(4,31): warning: no previous extern declaration for non-static variable 'Perspective' [-Wmissing-variable-declarations]
+    4 | mat<4,4> ModelView, Viewport, Perspective; // "OpenGL" state matrices
+      |                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(4,1): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    4 | mat<4,4> ModelView, Viewport, Perspective; // "OpenGL" state matrices
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(5,21): warning: no previous extern declaration for non-static variable 'zbuffer' [-Wmissing-variable-declarations]
+    5 | std::vector<double> zbuffer;               // depth buffer
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(5,1): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+    5 | std::vector<double> zbuffer;               // depth buffer
+      | ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(5,21): warning: declaration requires an exit-time destructor [-Wexit-time-destructors]
+    5 | std::vector<double> zbuffer;               // depth buffer
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(5,21): warning: declaration requires a global destructor [-Wglobal-constructors]
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(11,25): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   11 |     ModelView = mat<4,4>{{{l.x,l.y,l.z,0}, {m.x,m.y,m.z,0}, {n.x,n.y,n.z,0}, {0,0,0,1}}} *
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(12,25): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   12 |                 mat<4,4>{{{1,0,0,-center.x}, {0,1,0,-center.y}, {0,0,1,-center.z}, {0,0,0,1}}};
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(16,17): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   16 |     Perspective = {{{1,0,0,0}, {0,1,0,0}, {0,0,1,0}, {0,0, -1/f,1}}};
+      |                 ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(20,14): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   20 |     Viewport = {{{w/2., 0, 0, x+w/2.}, {0, h/2., 0, y+h/2.}, {0,0,1,0}, {0,0,0,1}}};
+      |              ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(24,15): warning: class template argument deduction is incompatible with C++ standards before C++17; for compatibility, use explicit type name 'std::vector<double>' [-Wpre-c++17-compat]
+   24 |     zbuffer = std::vector(width*height, -1000.);
+      |               ^~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(24,32): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   24 |     zbuffer = std::vector(width*height, -1000.);
+      |               ~~~         ~~~~~^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(34,10): warning: structured binding declarations are incompatible with C++ standards before C++17 [-Wpre-c++17-compat]
+   34 |     auto [bbminx,bbmaxx] = std::minmax({screen[0].x, screen[1].x, screen[2].x}); // bounding box for the triangle
+      |          ^~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(34,5): warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+   34 |     auto [bbminx,bbmaxx] = std::minmax({screen[0].x, screen[1].x, screen[2].x}); // bounding box for the triangle
+      |     ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(34,40): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   34 |     auto [bbminx,bbmaxx] = std::minmax({screen[0].x, screen[1].x, screen[2].x}); // bounding box for the triangle
+      |                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(34,40): warning: initialization of initializer_list object is incompatible with C++98 [-Wc++98-compat]
+   34 |     auto [bbminx,bbmaxx] = std::minmax({screen[0].x, screen[1].x, screen[2].x}); // bounding box for the triangle
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(35,10): warning: structured binding declarations are incompatible with C++ standards before C++17 [-Wpre-c++17-compat]
+   35 |     auto [bbminy,bbmaxy] = std::minmax({screen[0].y, screen[1].y, screen[2].y}); // defined by its top left and bottom right corners
+      |          ^~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(35,5): warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+   35 |     auto [bbminy,bbmaxy] = std::minmax({screen[0].y, screen[1].y, screen[2].y}); // defined by its top left and bottom right corners
+      |     ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(35,40): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   35 |     auto [bbminy,bbmaxy] = std::minmax({screen[0].y, screen[1].y, screen[2].y}); // defined by its top left and bottom right corners
+      |                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(35,40): warning: initialization of initializer_list object is incompatible with C++98 [-Wc++98-compat]
+   35 |     auto [bbminy,bbmaxy] = std::minmax({screen[0].y, screen[1].y, screen[2].y}); // defined by its top left and bottom right corners
+      |                                        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(36,9): warning: unexpected '#pragma omp ...' in program [-Wsource-uses-openmp]
+   36 | #pragma omp parallel for
+      |         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(37,30): warning: implicit conversion turns floating-point number into integer: 'std::tuple_element<0ULL, pair<double, double>>::type' (aka 'double') to 'const int' [-Wfloat-conversion]
+   37 |     for (int x=std::max<int>(bbminx, 0); x<=std::min<int>(bbmaxx, framebuffer.width()-1); x++) {         // clip the bounding box by the screen
+      |                ~~~           ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(37,59): warning: implicit conversion turns floating-point number into integer: 'std::tuple_element<1ULL, pair<double, double>>::type' (aka 'double') to 'const int' [-Wfloat-conversion]
+   37 |     for (int x=std::max<int>(bbminx, 0); x<=std::min<int>(bbmaxx, framebuffer.width()-1); x++) {         // clip the bounding box by the screen
+      |                                             ~~~           ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(38,34): warning: implicit conversion turns floating-point number into integer: 'std::tuple_element<0ULL, pair<double, double>>::type' (aka 'double') to 'const int' [-Wfloat-conversion]
+   38 |         for (int y=std::max<int>(bbminy, 0); y<=std::min<int>(bbmaxy, framebuffer.height()-1); y++) {
+      |                    ~~~           ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(38,63): warning: implicit conversion turns floating-point number into integer: 'std::tuple_element<1ULL, pair<double, double>>::type' (aka 'double') to 'const int' [-Wfloat-conversion]
+   38 |         for (int y=std::max<int>(bbminy, 0); y<=std::min<int>(bbmaxy, framebuffer.height()-1); y++) {
+      |                                                 ~~~           ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(39,52): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   39 |             vec3 bc = ABC.invert_transpose() * vec3{static_cast<double>(x), static_cast<double>(y), 1.}; // barycentric coordinates of {x,y} w.r.t the triangle
+      |                                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(41,33): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   41 |             double z = bc * vec3{ ndc[0].z, ndc[1].z, ndc[2].z };  // linear interpolation of the depth
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(42,31): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   42 |             if (z <= zbuffer[x+y*framebuffer.width()]) continue;   // discard fragments that are too deep w.r.t the z-buffer
+      |                      ~~~~~~~ ~^~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(43,18): warning: structured binding declarations are incompatible with C++ standards before C++17 [-Wpre-c++17-compat]
+   43 |             auto [discard, color] = shader.fragment(bc);
+      |                  ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(43,13): warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+   43 |             auto [discard, color] = shader.fragment(bc);
+      |             ^~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h(9,8): warning: padding size of 'IShader' with 8 bytes to alignment boundary [-Wpadded]
+    9 | struct IShader {
+      |        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp(45,22): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   45 |             zbuffer[x+y*framebuffer.width()] = z;                  // update the z-buffer
+      |             ~~~~~~~ ~^~~~~~~~~~~~~~~~~~~~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(26,52): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   26 |     std::uint8_t& operator[](const int i) { return bgra[i]; }
+      |                                                    ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(26,52): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(27,64): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   27 |     const std::uint8_t& operator[](const int i) const { return bgra[i]; }
+      |                                                                ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(27,64): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.cpp:2:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\our_gl.h:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(8,73): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+    8 |     double& operator[](const int i)       { assert(i>=0 && i<n); return data[i]; }
+      |                                                                         ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(8,73): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(9,73): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+    9 |     double  operator[](const int i) const { assert(i>=0 && i<n); return data[i]; }
+      |                                                                         ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(9,73): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   92 |           vec<ncols>& operator[] (const int idx)       { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   93 |     const vec<ncols>& operator[] (const int idx) const { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   92 |           vec<ncols>& operator[] (const int idx)       { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   93 |     const vec<ncols>& operator[] (const int idx) const { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   92 |           vec<ncols>& operator[] (const int idx)       { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   93 |     const vec<ncols>& operator[] (const int idx) const { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(102,53): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  102 |             for (int j=ncols-1;j--; submatrix[i][j]=rows[i+int(i>=row)][j+int(j>=col)]);
+      |                                                     ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(102,53): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   92 |           vec<ncols>& operator[] (const int idx)       { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(92,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   93 |     const vec<ncols>& operator[] (const int idx) const { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(102,53): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  102 |             for (int j=ncols-1;j--; submatrix[i][j]=rows[i+int(i>=row)][j+int(j>=col)]);
+      |                                                     ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(102,53): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+86 warnings generated.
+[3/5] Building CXX object CMakeFiles\tinyrenderer.dir\tgaimage.cpp.obj
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(32,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   32 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(46,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(33,68): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   33 |     TGAImage(const int w, const int h, const int bpp, TGAColor c = {});
+      |                                                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(5,91): warning: implicit conversion loses integer precision: 'const int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp, TGAColor c) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {
+      |                                                                                          ~^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(5,105): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp, TGAColor c) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {
+      |                                                                                                 ~~~~ ~~~^~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(5,30): warning: constructor parameter 'w' shadows the field 'w' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp, TGAColor c) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {
+      |                              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,9): note: previous declaration is here
+   45 |     int w = 0, h = 0;
+      |         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(5,43): warning: constructor parameter 'h' shadows the field 'h' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp, TGAColor c) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {
+      |                                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,16): note: previous declaration is here
+   45 |     int w = 0, h = 0;
+      |                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(5,56): warning: constructor parameter 'bpp' shadows the field 'bpp' of 'TGAImage' [-Wshadow-field-in-constructor]
+    5 | TGAImage::TGAImage(const int w, const int h, const int bpp, TGAColor c) : w(w), h(h), bpp(bpp), data(w*h*bpp, 0) {
+      |                                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(46,18): note: previous declaration is here
+   46 |     std::uint8_t bpp = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(31,26): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+   31 |     size_t nbytes = bpp*w*h;
+      |            ~~~~~~   ~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(34,56): warning: implicit conversion changes signedness: 'size_t' (aka 'unsigned long long') to 'streamsize' (aka 'long long') [-Wsign-conversion]
+   34 |         in.read(reinterpret_cast<char *>(data.data()), nbytes);
+      |            ~~~~                                        ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(45,48): warning: use of old-style cast [-Wold-style-cast]
+   45 |         std::cerr << "unknown file format " << (int)header.datatypecode << "\n";
+      |                                                ^    ~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(57,26): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+   57 |     size_t pixelcount = w*h;
+      |            ~~~~~~~~~~   ~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(63,26): warning: implicit conversion loses integer precision: 'int_type' (aka 'int') to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+   63 |         chunkheader = in.get();
+      |                     ~ ~~~^~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(106,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  106 |     constexpr std::uint8_t developer_area_ref[4] = {0, 0, 0, 0};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(107,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  107 |     constexpr std::uint8_t extension_area_ref[4] = {0, 0, 0, 0};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(108,5): warning: 'constexpr' specifier is incompatible with C++98 [-Wc++98-compat]
+  108 |     constexpr std::uint8_t footer[18] = {'T','R','U','E','V','I','S','I','O','N','-','X','F','I','L','E','.','\0'};
+      |     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(116,30): warning: implicit conversion loses integer precision: 'int' to 'std::uint8_t' (aka 'unsigned char') [-Wimplicit-int-conversion]
+  116 |     header.bitsperpixel = bpp<<3;
+      |                         ~ ~~~^~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(117,21): warning: implicit conversion loses integer precision: 'const int' to 'std::uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  117 |     header.width  = w;
+      |                   ~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(118,21): warning: implicit conversion loses integer precision: 'const int' to 'std::uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+  118 |     header.height = h;
+      |                   ~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(141,23): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  141 |     size_t npixels = w*h;
+      |            ~~~~~~~   ~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(151,41): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  151 |                 succ_eq = (data[curbyte+t]==data[curbyte+t+bpp]);
+      |                                        ~^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(151,58): warning: implicit conversion changes signedness: 'int' to 'size_t' (aka 'unsigned long long') [-Wsign-conversion]
+  151 |                 succ_eq = (data[curbyte+t]==data[curbyte+t+bpp]);
+      |                                                         ~^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(173,60): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+  173 |     if (!data.size() || x<0 || y<0 || x>=w || y>=h) return {};
+      |                                                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(174,21): warning: suggest braces around initialization of subobject [-Wmissing-braces]
+  174 |     TGAColor ret = {0, 0, 0, 0, bpp};
+      |                     ^~~~~~~~~~
+      |                     {         }
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(189,68): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  189 |                 std::swap(data[(i+j*w)*bpp+b], data[(w-1-i+j*w)*bpp+b]);
+      |                                                ~~~~ ~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(189,43): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  189 |                 std::swap(data[(i+j*w)*bpp+b], data[(w-1-i+j*w)*bpp+b]);
+      |                           ~~~~ ~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(196,70): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  196 |                 std::swap(data[(i+j*w)*bpp+b], data[(i+(h-1-j)*w)*bpp+b]);
+      |                                                ~~~~ ~~~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(196,43): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+  196 |                 std::swap(data[(i+j*w)*bpp+b], data[(i+(h-1-j)*w)*bpp+b]);
+      |                           ~~~~ ~~~~~~~~~~~^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(26,52): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   26 |     std::uint8_t& operator[](const int i) { return bgra[i]; }
+      |                                                    ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(26,52): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(27,64): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   27 |     const std::uint8_t& operator[](const int i) const { return bgra[i]; }
+      |                                                                ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(27,64): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(77,43): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   77 |                     data[currentbyte++] = colorbuffer.bgra[t];
+      |                                           ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(77,43): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(93,43): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   93 |                     data[currentbyte++] = colorbuffer.bgra[t];
+      |                                           ^~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(93,43): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(166,55): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  166 |         out.write(reinterpret_cast<const char *>(data.data()+chunkstart), (raw?run_length*bpp:bpp));
+      |                                                  ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(166,55): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(175,34): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  175 |     const std::uint8_t *p = data.data()+(x+y*w)*bpp;
+      |                             ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(175,34): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(176,26): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  176 |     for (int i=bpp; i--; ret.bgra[i] = p[i]);
+      |                          ^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(176,26): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(176,40): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+  176 |     for (int i=bpp; i--; ret.bgra[i] = p[i]);
+      |                                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(176,40): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(182,5): warning: function 'memcpy' is unsafe [-Wunsafe-buffer-usage-in-libc-call]
+  182 |     memcpy(data.data()+(x+y*w)*bpp, c.bgra, bpp);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(182,17): warning: unsafe pointer arithmetic [-Wunsafe-buffer-usage]
+  182 |     memcpy(data.data()+(x+y*w)*bpp, c.bgra, bpp);
+      |            ~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.cpp(182,17): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+57 warnings generated.
+[4/5] Building CXX object CMakeFiles\tinyrenderer.dir\model.cpp.obj
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp:3:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(7,20): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    7 |     double data[n] = {0};
+      |                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(52,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   52 |     double x = 0, y = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(52,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   52 |     double x = 0, y = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(58,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   58 |     double x = 0, y = 0, z = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,14): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |              ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,21): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                     ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(64,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   64 |     double x = 0, y = 0, z = 0, w = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(67,33): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   67 |     vec<2> xy()  const { return {x, y};    }
+      |                                 ^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(68,33): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   68 |     vec<3> xyz() const { return {x, y, z}; }
+      |                                 ^~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(84,12): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   84 |     return {v1.y*v2.z - v1.z*v2.y, v1.z*v2.x - v1.x*v2.z, v1.x*v2.y - v1.y*v2.x};
+      |            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(90,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   90 |     vec<ncols> rows[nrows] = {{}};
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(126,25): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+  126 |     return (mat<1,nrows>{{lhs}}*rhs)[0];
+      |                         ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp:3:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(8,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::uint8_t  idlength = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::uint8_t  colormaptype = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::uint8_t  datatypecode = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(11,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     std::uint16_t colormaporigin = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(12,34): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     std::uint16_t colormaplength = 0;
+      |                                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(13,33): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     std::uint8_t  colormapdepth = 0;
+      |                                 ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(14,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   14 |     std::uint16_t x_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(15,28): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   15 |     std::uint16_t y_origin = 0;
+      |                            ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(16,25): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   16 |     std::uint16_t width = 0;
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(17,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   17 |     std::uint16_t height = 0;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(18,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   18 |     std::uint8_t  bitsperpixel = 0;
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(19,35): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   19 |     std::uint8_t  imagedescriptor = 0;
+      |                                   ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(24,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   24 |     std::uint8_t bgra[4] = {0,0,0,0};
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(25,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   25 |     std::uint8_t bytespp = 4;
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(32,18): warning: defaulted function definitions are incompatible with C++98 [-Wc++98-compat]
+   32 |     TGAImage() = default;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,11): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(45,18): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   45 |     int w = 0, h = 0;
+      |                  ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(46,22): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   46 |     std::uint8_t bpp = 0;
+      |                      ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,36): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(33,68): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   33 |     TGAImage(const int w, const int h, const int bpp, TGAColor c = {});
+      |                                                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,38): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                                      ^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(5,29): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec4> verts = {};    // array of vertices        ┐ generally speaking, these arrays
+      |                             ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(6,29): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<vec4> norms = {};    // array of normal vectors  │ do not have the same size
+      |                             ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(7,27): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    7 |     std::vector<vec2> tex = {};      // array of tex coords      ┘ check the logs of the Model() constructor
+      |                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(8,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::vector<int> facet_vrt = {}; //  ┐ per-triangle indices in the above arrays,
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(9,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::vector<int> facet_nrm = {}; //  │ the size is supposed to be
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(10,32): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::vector<int> facet_tex = {}; //  ┘ nfaces()*3
+      |                                ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(11,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   11 |     TGAImage diffusemap  = {};       // diffuse color texture
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(12,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   12 |     TGAImage normalmap   = {};       // normal map texture
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(13,26): warning: default member initializer for non-static data members is incompatible with C++98 [-Wc++98-compat]
+   13 |     TGAImage specularmap = {};       // specular texture
+      |                          ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(5,31): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    5 |     std::vector<vec4> verts = {};    // array of vertices        ┐ generally speaking, these arrays
+      |                               ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(6,31): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    6 |     std::vector<vec4> norms = {};    // array of normal vectors  │ do not have the same size
+      |                               ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(7,29): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    7 |     std::vector<vec2> tex = {};      // array of tex coords      ┘ check the logs of the Model() constructor
+      |                             ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(8,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    8 |     std::vector<int> facet_vrt = {}; //  ┐ per-triangle indices in the above arrays,
+      |                                  ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(9,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+    9 |     std::vector<int> facet_nrm = {}; //  │ the size is supposed to be
+      |                                  ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(10,34): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   10 |     std::vector<int> facet_tex = {}; //  ┘ nfaces()*3
+      |                                  ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(11,28): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   11 |     TGAImage diffusemap  = {};       // diffuse color texture
+      |                            ^~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp:3:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(47,31): warning: padding struct 'TGAImage' with 7 bytes to align 'data' [-Wpadded]
+   47 |     std::vector<std::uint8_t> data = {};
+      |                               ^
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp:3:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(12,28): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   12 |     TGAImage normalmap   = {};       // normal map texture
+      |                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h(13,28): warning: constructor call from initializer list is incompatible with C++98 [-Wc++98-compat]
+   13 |     TGAImage specularmap = {};       // specular texture
+      |                            ^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(17,24): warning: range-based for loop is incompatible with C++98 [-Wc++98-compat]
+   17 |             for (int i : {0,1,2}) iss >> v[i];
+      |                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(17,26): warning: reference initialized from initializer list is incompatible with C++98 [-Wc++98-compat]
+   17 |             for (int i : {0,1,2}) iss >> v[i];
+      |                          ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(17,26): warning: initialization of initializer_list object is incompatible with C++98 [-Wc++98-compat]
+   17 |             for (int i : {0,1,2}) iss >> v[i];
+      |                          ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(22,24): warning: range-based for loop is incompatible with C++98 [-Wc++98-compat]
+   22 |             for (int i : {0,1,2}) iss >> n[i];
+      |                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(22,26): warning: reference initialized from initializer list is incompatible with C++98 [-Wc++98-compat]
+   22 |             for (int i : {0,1,2}) iss >> n[i];
+      |                          ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(22,26): warning: initialization of initializer_list object is incompatible with C++98 [-Wc++98-compat]
+   22 |             for (int i : {0,1,2}) iss >> n[i];
+      |                          ^~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(27,24): warning: range-based for loop is incompatible with C++98 [-Wc++98-compat]
+   27 |             for (int i : {0,1}) iss >> uv[i];
+      |                        ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(27,26): warning: reference initialized from initializer list is incompatible with C++98 [-Wc++98-compat]
+   27 |             for (int i : {0,1}) iss >> uv[i];
+      |                          ^~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(27,26): warning: initialization of initializer_list object is incompatible with C++98 [-Wc++98-compat]
+   27 |             for (int i : {0,1}) iss >> uv[i];
+      |                          ^~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(28,27): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   28 |             tex.push_back({uv.x, 1-uv.y});
+      |                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(45,5): warning: 'auto' type specifier is incompatible with C++98 [-Wc++98-compat]
+   45 |     auto load_texture = [&filename](const std::string suffix, TGAImage &img) {
+      |     ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(45,25): warning: lambda expressions are incompatible with C++98 [-Wc++98-compat]
+   45 |     auto load_texture = [&filename](const std::string suffix, TGAImage &img) {
+      |                         ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(56,42): warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+   56 | int Model::nverts() const { return verts.size(); }
+      |                             ~~~~~~ ~~~~~~^~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(57,52): warning: implicit conversion loses integer precision: 'size_type' (aka 'unsigned long long') to 'int' [-Wshorten-64-to-32]
+   57 | int Model::nfaces() const { return facet_vrt.size()/3; }
+      |                             ~~~~~~ ~~~~~~~~~~~~~~~~^~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(60,18): warning: implicit conversion changes signedness: 'const int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   60 |     return verts[i];
+      |            ~~~~~ ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(64,18): warning: implicit conversion changes signedness: 'const int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   64 |     return verts[facet_vrt[iface*3+nthvert]];
+      |            ~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(64,35): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   64 |     return verts[facet_vrt[iface*3+nthvert]];
+      |                  ~~~~~~~~~ ~~~~~~~^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(68,18): warning: implicit conversion changes signedness: 'const int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   68 |     return norms[facet_nrm[iface*3+nthvert]];
+      |            ~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(68,35): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   68 |     return norms[facet_nrm[iface*3+nthvert]];
+      |                  ~~~~~~~~~ ~~~~~~~^~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(72,62): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+   72 |     TGAColor c = normalmap.get(uv[0]*normalmap.width(), uv[1]*normalmap.height());
+      |                            ~~~                          ~~~~~^~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(72,37): warning: implicit conversion turns floating-point number into integer: 'double' to 'int' [-Wfloat-conversion]
+   72 |     TGAColor c = normalmap.get(uv[0]*normalmap.width(), uv[1]*normalmap.height());
+      |                            ~~~ ~~~~~^~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(73,27): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   73 |     return normalized(vec4{(double)c[2],(double)c[1],(double)c[0],0}*2./255. - vec4{1,1,1,0});
+      |                           ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(73,28): warning: use of old-style cast [-Wold-style-cast]
+   73 |     return normalized(vec4{(double)c[2],(double)c[1],(double)c[0],0}*2./255. - vec4{1,1,1,0});
+      |                            ^       ~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(73,41): warning: use of old-style cast [-Wold-style-cast]
+   73 |     return normalized(vec4{(double)c[2],(double)c[1],(double)c[0],0}*2./255. - vec4{1,1,1,0});
+      |                                         ^       ~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(73,54): warning: use of old-style cast [-Wold-style-cast]
+   73 |     return normalized(vec4{(double)c[2],(double)c[1],(double)c[0],0}*2./255. - vec4{1,1,1,0});
+      |                                                      ^       ~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(73,84): warning: generalized initializer lists are incompatible with C++98 [-Wc++98-compat]
+   73 |     return normalized(vec4{(double)c[2],(double)c[1],(double)c[0],0}*2./255. - vec4{1,1,1,0});
+      |                                                                                    ^
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(77,16): warning: implicit conversion changes signedness: 'const int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   77 |     return tex[facet_tex[iface*3+nthvert]];
+      |            ~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp(77,33): warning: implicit conversion changes signedness: 'int' to 'size_type' (aka 'unsigned long long') [-Wsign-conversion]
+   77 |     return tex[facet_tex[iface*3+nthvert]];
+      |                ~~~~~~~~~ ~~~~~~~^~~~~~~~
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp:3:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h:1:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(9,73): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+    9 |     double  operator[](const int i) const { assert(i>=0 && i<n); return data[i]; }
+      |                                                                         ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(9,73): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   93 |     const vec<ncols>& operator[] (const int idx) const { assert(idx>=0 && idx<nrows); return rows[idx]; }
+      |                                                                                              ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\geometry.h(93,94): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.cpp:3:
+In file included from D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\model.h:2:
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(26,52): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   26 |     std::uint8_t& operator[](const int i) { return bgra[i]; }
+      |                                                    ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(26,52): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(27,64): warning: unsafe buffer access [-Wunsafe-buffer-usage]
+   27 |     const std::uint8_t& operator[](const int i) const { return bgra[i]; }
+      |                                                                ^~~~
+D:\a\tinyrenderer-windows-check\tinyrenderer-windows-check\work-clang-noomp-extra\dfb973c-shadowmap-first\tgaimage.h(27,64): note: pass -fsafe-buffer-usage-suggestions to receive code hardening suggestions
+87 warnings generated.
+ninja: build stopped: subcommand failed.
